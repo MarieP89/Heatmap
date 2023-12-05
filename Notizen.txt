@@ -1,0 +1,24 @@
+csv. Aufteilung
+0. Langname - String
+1. Vorname - String
+2. ID - String
+3. Klasse - String
+4. Beginndatum - Date
+5. Beginnzeit - Datetime
+6. Enddatum - Date
+7. Endzeit - Datetime
+8. Unterbrechungen - STRING???
+9. Abwesenheitsgrund - Char
+10. Text/Grund - String
+11. Entschuldigungsnummer - uInt
+12. Status - String
+13. Entschuldigungstext - STRING???
+14. gemeldet von Schüler*in - Boolean
+
+V - Verspätung
+K - Krank - ohne Attest
+P - Private Gründe
+A - Krank mit Attest
+N - Unentschuldigt
+
+V / K, A, P / N
