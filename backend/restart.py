@@ -7,7 +7,6 @@ def extractData():
     targetPattern = r"backend/bin/*.csv"
     datei = glob.glob(targetPattern)
 
-    # originDoc = "backend/bin/AbsenceList_20231115_1157.csv"
     originDoc = datei[0]
     dataDoc = "backend/bin/data.txt"
 
@@ -18,7 +17,7 @@ def extractData():
         line.append(l.split("\t"))
 
     def usedData(x:list):
-        print(x)
+        print(x[0])
         return(x[0], x[1], x[3], x[4], x[5], x[6], x[7], x[9])
 
     def saveConDoc(line):
@@ -26,11 +25,9 @@ def extractData():
         for x in line:
             string = ""
             for s in usedData(x):
-                string += ", " + s
-            doc.write(string[2:])
+                string += "," + s
+            doc.write(string[1:])
             doc.write('\n')
         doc.close()
 
     saveConDoc(line)
-
-extractData()
