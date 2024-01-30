@@ -1,6 +1,6 @@
 import codecs
 
-dataDoc = "backend/bin/data.txt"
+dataDoc = "backend/bin/data/data.txt"
 
 data = [line.strip().split(",") for line in codecs.open(dataDoc, "r", 'utf-8').readlines()]
 print(data[0])
