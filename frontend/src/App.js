@@ -8,86 +8,88 @@ import './App.css';
 function App() {
 
   const [selectedDate, setSelectedDate] = useState(new Date());
-  const [dropDown, setDropDown] = useState([]);
   const [data, setData] = useState([]);
-  const [selectedValue, setSelectedValue] = useState(' ');
+  const [selectedKlasse, setSelectedKlasse] = useState(' ');
+  const [klassen, setKlassen] = useState([]);
+  const [langnames, setLangnames] = useState([]);
+  const [selectedLangname, setSelectedLangname] = useState('');
 
-  // useEffect(()=> {
-  //     fetchDropdownData();
-  // }, []);
-  //
-  // const fetchDropdownData = async () => {
-  //  try {
-  //   const response = await axios.get('/path/to/your/api', {
-  //      responseType: "text"
-  //   });
-  //   const data = response.data;
-  //   setDropDown(data);
-  //  }catch (error){
-  //      console.error('Error fetching the data', error)
-  //  }
-  // };
 
     // useEffect(() => {
-    //     axios.get('./data.txt')
-    //         .then(response =>{
-    //             const lines = response.data.split('\n');
-    //             const headers = lines[0].split(',');
-    //
-    //             const data = lines.slice(1).map(line => {
-    //                 const values = line.split(',');
-    //                 let obj = {};
-    //                 headers.forEach((header, i) =>{K
-    //                     obj[header] = values[i];
-    //                 });
-    //                 return obj;
+    //     axios.get('http://localhost:5000/read-csv')
+    //         .then(response => {
+    //             const filteredData = response.data.map(item => {
+    //                 return { name: item.name };  // Replace 'name' with the actual property name
     //             });
-    //             const filteredData = data.filter(item => item['Langname'] && item['Vorname']);
-    //             setDropDown(filteredData)
+    //             setData(filteredData);
     //         })
-    //         .catch(error => console.error('Error fetching the data', error));
+    //         .catch(error => {
+    //             console.error('Error fetching the CSV data', error);
+    //         });
     // }, []);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/read-csv')
+        axios.get('http://localhost:5000/get-klassen')
             .then(response => {
-                const filteredData = response.data.map(item => {
-                    return { name: item.name };  // Replace 'name' with the actual property name
-                });
-                setData(filteredData);
+                setKlassen(response.data);
             })
             .catch(error => {
-                console.error('Error fetching the CSV data', error);
+                console.error('Error fetching the Klassen data', error);
             });
     }, []);
 
-
+    useEffect(() => {
+        fetchLangnames(selectedKlasse);
+    }, [selectedKlasse]);
 
 
     const handleDateChange = date => {
     setSelectedDate(date);
   }
 
-    const handleDropdownChange = (event) => {
-        setSelectedValue(event.target.value);
+    const handleKlasseChange = (event) => {
+        setSelectedKlasse(event.target.value);
+    };
+
+    const handleLangnameChange = (event) => {
+        const selectedLangname = event.target.value;
+        setSelectedLangname(selectedLangname);
+    };
+
+    const fetchLangnames = (selectedKlasse) => {
+        // Fetch the "Langname" values based on the selected "Klasse" from the backend
+        axios
+            .get(`http://localhost:5000/get-langnames?klasse=${selectedKlasse}`)
+            .then((response) => {
+                setLangnames(response.data);
+            })
+            .catch((error) => {
+                console.error('Error fetching Langnames data', error);
+            });
     };
 
   return (
       <div className="calender-container">
-        <h1>Kalender um meine Schüler zu stalken</h1>
+          <h1>Kalender um meine Schüler zu stalken</h1>
           <div>
-              <select onChange={handleDropdownChange}>
-                  {dropDown.map((item, index) => (
-                      <option key={index} value={index}>{item['Langname']} {item['Vorname']}</option>
-                      ))}
+              <select onChange={handleKlasseChange} value={selectedKlasse}>
+                  {klassen.map((klasse, index) => (
+                      <option key={index} value={klasse}>{klasse}</option>
+                  ))}
               </select>
           </div>
-        <Calendar
-            onChange={handleDateChange}
-            value={selectedDate}
-        />
-        <p>Ausgewähltes Datum: {selectedDate.toLocaleDateString()}</p>
-         <p>Select Name: {dropDown[selectedValue] ? `${dropDown[selectedValue]['Langname']} ${dropDown[selectedValue]['Vorname']}` : ''}</p>
+          <div>
+              <select onChange={handleLangnameChange} value={selectedLangname}>
+                  {langnames.map((langname, index) => (
+                      <option key={index} value={langname}>{langname}</option>
+                  ))}
+              </select>
+          </div>
+          <Calendar
+              onChange={handleDateChange}
+              value={selectedDate}
+          />
+          <p>Ausgewähltes Datum: {selectedDate.toLocaleDateString()}</p>
       </div>
   );
 }
