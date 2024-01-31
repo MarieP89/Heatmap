@@ -20,5 +20,7 @@ K - Krank - ohne Attest
 P - Private Gründe
 A - Krank mit Attest
 N - Unentschuldigt
+S - schulische Abwesendheit
+O - Online
 
 V / K, A, P / N

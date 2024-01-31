@@ -1,550 +1,554 @@
-Langname,Vorname,Klasse,Beginndatum,Beginnzeit,Enddatum,Endzeit,Abwesenheitsgrund,Status
-Haase,Mike,ZHN 02,30.08.2023,08:00,30.08.2023,17:00,K,entsch.
-Haase,Mike,ZHN 02,04.09.2023,08:00,04.09.2023,09:30,K,entsch.
-Haase,Mike,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
-Haase,Mike,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
-Haase,Mike,ZHN 02,12.10.2023,08:00,12.10.2023,08:06,V,nicht entsch.
-Haase,Mike,ZHN 02,12.10.2023,09:45,12.10.2023,17:00,K,entsch.
-Giraffe,Max,ZHN 02,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
-Giraffe,Max,ZHN 02,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
-Giraffe,Max,ZHN 02,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
-Giraffe,Max,ZHN 02,20.09.2023,08:00,20.09.2023,17:00,A,entsch.
-Giraffe,Max,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
-Giraffe,Max,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Giraffe,Max,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Giraffe,Max,ZHN 02,08.11.2023,08:00,08.11.2023,17:00,P,entsch.
-Giraffe,Max,ZHN 02,09.11.2023,08:00,09.11.2023,08:02,V,nicht entsch.
-Löwe,Lisa,ZHN 02,06.09.2023,08:00,06.09.2023,08:19,V,nicht entsch.
-Löwe,Lisa,ZHN 02,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
-Löwe,Lisa,ZHN 02,14.09.2023,08:00,14.09.2023,11:15,N,nicht entsch.
-Löwe,Lisa,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
-Löwe,Lisa,ZHN 02,18.09.2023,08:00,18.09.2023,08:53,V,nicht entsch.
-Löwe,Lisa,ZHN 02,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
-Löwe,Lisa,ZHN 02,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
-Löwe,Lisa,ZHN 02,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
-Löwe,Lisa,ZHN 02,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
-Löwe,Lisa,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Löwe,Lisa,ZHN 02,04.10.2023,08:00,04.10.2023,09:30,N,nicht entsch.
-Löwe,Lisa,ZHN 02,05.10.2023,08:00,05.10.2023,09:50,A,entsch.
-Löwe,Lisa,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Löwe,Lisa,ZHN 02,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
-Löwe,Lisa,ZHN 02,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
-Löwe,Lisa,ZHN 02,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
-Löwe,Lisa,ZHN 02,19.10.2023,08:00,19.10.2023,18:30,A,entsch.
-Löwe,Lisa,ZHN 02,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
-Löwe,Lisa,ZHN 02,09.11.2023,08:00,10.11.2023,17:00,A,entsch.
-Löwe,Lisa,ZHN 02,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
-Löwe,Lisa,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Ameise,Gina,ZHN 02,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Ameise,Gina,ZHN 02,14.11.2023,08:00,14.11.2023,08:10,N,nicht entsch.
-Ameisenbär,Francois,ZHN 02,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
-Ameisenbär,Francois,ZHN 02,12.09.2023,08:00,12.09.2023,08:05,N,nicht entsch.
-Ameisenbär,Francois,ZHN 02,14.09.2023,08:00,14.09.2023,09:30,N,nicht entsch.
-Ameisenbär,Francois,ZHN 02,21.09.2023,13:30,21.09.2023,15:00,K,entsch.
-Ameisenbär,Francois,ZHN 02,25.09.2023,13:30,25.09.2023,17:00,N,nicht entsch.
-Ameisenbär,Francois,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Ameisenbär,Francois,ZHN 02,05.10.2023,08:00,05.10.2023,08:08,V,nicht entsch.
-Ameisenbär,Francois,ZHN 02,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
-Ameisenbär,Francois,ZHN 02,12.10.2023,08:00,13.10.2023,17:00,A,entsch.
-Ameisenbär,Francois,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
-Tiger,Karl,ZHN 02,30.08.2023,09:45,04.09.2023,08:00,A,entsch.
-Tiger,Karl,ZHN 02,13.09.2023,08:00,13.09.2023,08:06,V,nicht entsch.
-Tiger,Karl,ZHN 02,29.09.2023,13:30,29.09.2023,15:00,K,entsch.
-Geier,Carolina,ZHN 02,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
-Geier,Carolina,ZHN 02,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
-Geier,Carolina,ZHN 02,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
-Geier,Carolina,ZHN 02,19.09.2023,13:30,19.09.2023,15:00,P,entsch.
-Geier,Carolina,ZHN 02,25.09.2023,08:00,25.09.2023,17:00,A,entsch.
-Geier,Carolina,ZHN 02,26.09.2023,09:45,26.09.2023,09:57,V,nicht entsch.
-Geier,Carolina,ZHN 02,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,28.08.2023,08:00,30.08.2023,18:30,A,entsch.
-Ratte,Gustav,ZHN 02,31.08.2023,08:00,31.08.2023,08:06,V,nicht entsch.
-Ratte,Gustav,ZHN 02,05.09.2023,08:00,05.09.2023,09:30,P,entsch.
-Ratte,Gustav,ZHN 02,06.09.2023,08:00,06.09.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,07.09.2023,08:00,07.09.2023,09:30,K,entsch.
-Ratte,Gustav,ZHN 02,11.09.2023,08:00,11.09.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,K,entsch.
-Ratte,Gustav,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,05.10.2023,08:00,05.10.2023,08:07,V,nicht entsch.
-Ratte,Gustav,ZHN 02,06.10.2023,13:30,06.10.2023,15:00,P,entsch.
-Ratte,Gustav,ZHN 02,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,11.10.2023,09:45,12.10.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Ratte,Gustav,ZHN 02,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
-Ratte,Gustav,ZHN 02,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
-Ratte,Gustav,ZHN 02,07.11.2023,09:45,07.11.2023,17:00,N,nicht entsch.
-Ratte,Gustav,ZHN 02,08.11.2023,08:00,08.11.2023,17:00,N,nicht entsch.
-Ratte,Gustav,ZHN 02,09.11.2023,08:00,09.11.2023,08:10,V,nicht entsch.
-Ratte,Gustav,ZHN 02,14.11.2023,08:00,14.11.2023,09:30,N,nicht entsch.
-Esel,Mustafa,ZHN 02,28.08.2023,08:00,30.08.2023,17:00,K,entsch.
-Esel,Mustafa,ZHN 02,31.08.2023,08:00,31.08.2023,17:00,N,nicht entsch.
-Esel,Mustafa,ZHN 02,01.09.2023,08:00,01.09.2023,17:00,A,entsch.
-Esel,Mustafa,ZHN 02,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
-Esel,Mustafa,ZHN 02,13.09.2023,08:00,13.09.2023,08:05,V,nicht entsch.
-Esel,Mustafa,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
-Esel,Mustafa,ZHN 02,21.09.2023,11:35,21.09.2023,15:00,A,entsch.
-Esel,Mustafa,ZHN 02,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
-Esel,Mustafa,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Esel,Mustafa,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Esel,Mustafa,ZHN 02,13.10.2023,08:00,13.10.2023,17:00,A,entsch.
-Esel,Mustafa,ZHN 02,06.11.2023,08:00,06.11.2023,11:15,A,entsch.
-Esel,Mustafa,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Krokodil,Tamara,ZHN 02,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
-Krokodil,Tamara,ZHN 02,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
-Krokodil,Tamara,ZHN 02,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
-Krokodil,Tamara,ZHN 02,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
-Krokodil,Tamara,ZHN 02,06.10.2023,08:00,06.10.2023,09:45,P,entsch.
-Krokodil,Tamara,ZHN 02,11.10.2023,09:45,11.10.2023,10:08,V,nicht entsch.
-Krokodil,Tamara,ZHN 02,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
-Krokodil,Tamara,ZHN 02,14.11.2023,08:00,14.11.2023,11:15,P,entsch.
-Krokodil,Tamara,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,04.09.2023,08:00,04.09.2023,17:00,P,entsch.
-Papagei,Enzo,ZHN 02,06.09.2023,08:00,06.09.2023,18:30,A,entsch.
-Papagei,Enzo,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,18.09.2023,08:00,18.09.2023,08:52,V,nicht entsch.
-Papagei,Enzo,ZHN 02,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
-Papagei,Enzo,ZHN 02,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
-Papagei,Enzo,ZHN 02,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
-Papagei,Enzo,ZHN 02,27.09.2023,08:00,27.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Papagei,Enzo,ZHN 02,05.10.2023,08:00,05.10.2023,09:50,N,nicht entsch.
-Papagei,Enzo,ZHN 02,09.10.2023,08:00,09.10.2023,18:30,A,entsch.
-Papagei,Enzo,ZHN 02,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
-Papagei,Enzo,ZHN 02,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
-Papagei,Enzo,ZHN 02,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
-Papagei,Enzo,ZHN 02,19.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Papagei,Enzo,ZHN 02,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
-Papagei,Enzo,ZHN 02,09.11.2023,08:00,09.11.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,10.11.2023,08:00,10.11.2023,17:00,N,nicht entsch.
-Papagei,Enzo,ZHN 02,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
-Papagei,Enzo,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Elefant,Marc,ZHN 02,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
-Elefant,Marc,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
-Elefant,Marc,ZHN 02,18.09.2023,08:00,18.09.2023,08:23,V,nicht entsch.
-Elefant,Marc,ZHN 02,28.09.2023,08:00,28.09.2023,17:00,A,entsch.
-Elefant,Marc,ZHN 02,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Elefant,Marc,ZHN 02,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
-Elefant,Marc,ZHN 02,19.10.2023,11:35,20.10.2023,17:00,A,entsch.
-Elefant,Marc,ZHN 02,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
-Elefant,Marc,ZHN 02,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
-Elefant,Marc,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Spinne,Sabine,ZHN 02,07.09.2023,08:00,07.09.2023,08:16,V,nicht entsch.
-Zebra,Tom,ZHN 02,29.08.2023,08:00,29.08.2023,18:30,K,entsch.
-Zebra,Tom,ZHN 02,05.09.2023,08:00,05.09.2023,18:30,K,entsch.
-Zebra,Tom,ZHN 02,06.09.2023,08:00,06.09.2023,09:30,P,entsch.
-Zebra,Tom,ZHN 02,07.09.2023,08:00,07.09.2023,08:10,V,nicht entsch.
-Zebra,Tom,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
-Zebra,Tom,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
-Zebra,Tom,ZHN 02,18.09.2023,08:00,18.09.2023,08:12,V,nicht entsch.
-Zebra,Tom,ZHN 02,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
-Zebra,Tom,ZHN 02,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
-Zebra,Tom,ZHN 02,26.09.2023,09:45,26.09.2023,09:55,V,nicht entsch.
-Zebra,Tom,ZHN 02,28.09.2023,08:00,28.09.2023,08:06,V,nicht entsch.
-Zebra,Tom,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Zebra,Tom,ZHN 02,04.10.2023,08:00,04.10.2023,08:06,V,nicht entsch.
-Zebra,Tom,ZHN 02,06.10.2023,12:04,06.10.2023,17:00,N,nicht entsch.
-Zebra,Tom,ZHN 02,09.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Zebra,Tom,ZHN 02,12.10.2023,08:00,12.10.2023,09:30,P,entsch.
-Zebra,Tom,ZHN 02,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
-Zebra,Tom,ZHN 02,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
-Zebra,Tom,ZHN 02,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Zebra,Tom,ZHN 02,06.11.2023,08:00,06.11.2023,08:24,V,nicht entsch.
-Zebra,Tom,ZHN 02,08.11.2023,08:00,08.11.2023,11:15,N,nicht entsch.
-Zebra,Tom,ZHN 02,13.11.2023,08:00,13.11.2023,17:00,N,nicht entsch.
-Zebra,Tom,ZHN 02,14.11.2023,08:00,14.11.2023,09:30,P,entsch.
-Igel,Serhan,ZHN 02,04.09.2023,08:00,04.09.2023,13:30,P,entsch.
-Igel,Serhan,ZHN 02,08.09.2023,11:35,08.09.2023,17:00,N,nicht entsch.
-Igel,Serhan,ZHN 02,21.09.2023,13:30,21.09.2023,15:00,P,entsch.
-Igel,Serhan,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Igel,Serhan,ZHN 02,04.10.2023,08:00,05.10.2023,17:00,A,entsch.
-Igel,Serhan,ZHN 02,12.10.2023,08:00,12.10.2023,08:10,V,nicht entsch.
-Igel,Serhan,ZHN 02,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
-Igel,Serhan,ZHN 02,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
-Igel,Serhan,ZHN 02,20.10.2023,08:00,20.10.2023,08:17,V,nicht entsch.
-Igel,Serhan,ZHN 02,14.11.2023,08:06,14.11.2023,09:30,N,nicht entsch.
-Igel,Serhan,ZHN 02,15.11.2023,11:35,15.11.2023,15:00,P,entsch.
-Moskito,Zekeria,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
-Moskito,Zekeria,ZHN 02,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
-Moskito,Zekeria,ZHN 02,20.09.2023,08:00,20.09.2023,17:00,K,entsch.
-Moskito,Zekeria,ZHN 02,26.09.2023,09:45,26.09.2023,10:05,V,nicht entsch.
-Moskito,Zekeria,ZHN 02,29.09.2023,13:30,29.09.2023,17:00,N,nicht entsch.
-Moskito,Zekeria,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Moskito,Zekeria,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Moskito,Zekeria,ZHN 02,13.10.2023,08:00,13.10.2023,18:30,A,entsch.
-Moskito,Zekeria,ZHN 02,17.10.2023,08:00,17.10.2023,17:00,A,entsch.
-Moskito,Zekeria,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,A,entsch.
-Moskito,Zekeria,ZHN 02,06.11.2023,08:00,06.11.2023,18:30,K,entsch.
-Moskito,Zekeria,ZHN 02,09.11.2023,08:00,09.11.2023,09:30,N,nicht entsch.
-Moskito,Zekeria,ZHN 02,10.11.2023,08:00,10.11.2023,17:00,A,entsch.
-Maus,Maggi,ZHN 02,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
-Maus,Maggi,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
-Maus,Maggi,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
-Maus,Maggi,ZHN 02,09.11.2023,08:00,09.11.2023,09:30,P,entsch.
-Maus,Maggi,ZHN 02,14.11.2023,08:00,15.11.2023,17:00,A,entsch.
-Maus,Maggi,ZHN 02,16.11.2023,13:30,16.11.2023,18:30,K,entsch.
-Katze,Theresa,ZHN 02,29.08.2023,13:30,29.08.2023,17:00,K,entsch.
-Katze,Theresa,ZHN 02,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
-Katze,Theresa,ZHN 02,04.09.2023,08:00,05.09.2023,18:30,A,entsch.
-Katze,Theresa,ZHN 02,07.09.2023,08:00,07.09.2023,17:00,A,entsch.
-Katze,Theresa,ZHN 02,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
-Katze,Theresa,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
-Katze,Theresa,ZHN 02,18.09.2023,08:00,22.09.2023,17:00,A,entsch.
-Katze,Theresa,ZHN 02,25.09.2023,13:30,25.09.2023,15:00,K,entsch.
-Katze,Theresa,ZHN 02,28.09.2023,08:00,28.09.2023,08:05,V,nicht entsch.
-Katze,Theresa,ZHN 02,28.09.2023,13:30,28.09.2023,15:00,K,entsch.
-Katze,Theresa,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Katze,Theresa,ZHN 02,05.10.2023,08:00,09.10.2023,18:30,A,entsch.
-Katze,Theresa,ZHN 02,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Katze,Theresa,ZHN 02,13.10.2023,11:35,13.10.2023,17:00,A,entsch.
-Katze,Theresa,ZHN 02,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
-Katze,Theresa,ZHN 02,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
-Hund,Vera,ZHN 02,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
-Hund,Vera,ZHN 02,30.08.2023,08:00,30.08.2023,09:30,P,entsch.
-Hund,Vera,ZHN 02,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
-Hund,Vera,ZHN 02,28.09.2023,09:45,28.09.2023,10:30,P,entsch.
-Hund,Vera,ZHN 02,28.09.2023,13:30,28.09.2023,15:00,N,nicht entsch.
-Rotkehlchen,Jan,ZHN 02,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
-Rotkehlchen,Jan,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Rotkehlchen,Jan,ZHN 02,04.10.2023,08:00,06.10.2023,17:00,A,entsch.
-Rotkehlchen,Jan,ZHN 02,17.10.2023,13:30,17.10.2023,15:00,K,entsch.
-Schwein,Sibylle,ZHN 02,08.09.2023,12:45,08.09.2023,12:55,N,nicht entsch.
-Schwein,Sibylle,ZHN 02,13.09.2023,09:00,13.09.2023,17:00,K,entsch.
-Schwein,Sibylle,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
-Schwein,Sibylle,ZHN 02,22.09.2023,12:15,22.09.2023,12:20,N,nicht entsch.
-Schwein,Sibylle,ZHN 02,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
-Schwein,Sibylle,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Schwein,Sibylle,ZHN 02,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
-Schwein,Sibylle,ZHN 02,13.11.2023,08:00,13.11.2023,09:05,P,entsch.
-Schwein,Sibylle,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Schlange,Nico,ZHN 02,31.08.2023,08:00,31.08.2023,18:30,K,entsch.
-Schlange,Nico,ZHN 02,13.09.2023,09:45,13.09.2023,17:00,N,nicht entsch.
-Schlange,Nico,ZHN 02,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
-Schlange,Nico,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Schlange,Nico,ZHN 02,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
-Schlange,Nico,ZHN 02,05.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Schlange,Nico,ZHN 02,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
-Schlange,Nico,ZHN 02,19.10.2023,08:00,20.10.2023,17:00,A,entsch.
-Tapir,Ludwig,ZHN 02,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
-Tapir,Ludwig,ZHN 02,04.09.2023,08:00,04.09.2023,18:30,K,entsch.
-Tapir,Ludwig,ZHN 02,06.09.2023,08:00,06.09.2023,18:30,K,entsch.
-Tapir,Ludwig,ZHN 02,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
-Tapir,Ludwig,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
-Tapir,Ludwig,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
-Tapir,Ludwig,ZHN 02,18.09.2023,08:00,18.09.2023,11:15,N,nicht entsch.
-Tapir,Ludwig,ZHN 02,19.09.2023,08:00,19.09.2023,17:00,P,entsch.
-Tapir,Ludwig,ZHN 02,26.09.2023,09:45,26.09.2023,17:00,N,nicht entsch.
-Tapir,Ludwig,ZHN 02,29.09.2023,13:05,29.09.2023,15:00,K,entsch.
-Tapir,Ludwig,ZHN 02,05.10.2023,09:45,05.10.2023,17:00,K,entsch.
-Tapir,Ludwig,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Tapir,Ludwig,ZHN 02,12.10.2023,08:00,12.10.2023,09:30,N,nicht entsch.
-Tapir,Ludwig,ZHN 02,12.10.2023,13:30,12.10.2023,15:00,K,entsch.
-Tapir,Ludwig,ZHN 02,16.10.2023,08:00,16.10.2023,17:00,A,entsch.
-Tapir,Ludwig,ZHN 02,19.10.2023,08:00,19.10.2023,08:10,V,nicht entsch.
-Tapir,Ludwig,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
-Tapir,Ludwig,ZHN 02,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
-Tapir,Ludwig,ZHN 02,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
-Tapir,Ludwig,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,04.09.2023,08:00,04.09.2023,08:20,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,06.09.2023,13:30,06.09.2023,17:00,N,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,07.09.2023,08:00,07.09.2023,08:04,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,19.09.2023,08:00,19.09.2023,08:04,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,25.09.2023,08:00,25.09.2023,08:09,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,28.09.2023,08:00,28.09.2023,08:09,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,29.09.2023,08:00,29.09.2023,08:14,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
-Schildkröte,Ahmad,ZHN 02,05.10.2023,08:00,05.10.2023,17:00,K,entsch.
-Schildkröte,Ahmad,ZHN 02,09.10.2023,08:00,09.10.2023,11:15,N,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,11.10.2023,09:45,11.10.2023,10:01,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
-Schildkröte,Ahmad,ZHN 02,07.11.2023,09:45,07.11.2023,10:00,V,nicht entsch.
-Pferd,Philip,ZHN 02,29.08.2023,09:45,29.08.2023,17:00,P,entsch.
-Pferd,Philip,ZHN 02,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
-Pferd,Philip,ZHN 02,11.09.2023,08:00,13.09.2023,18:30,A,entsch.
-Pferd,Philip,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
-Pferd,Philip,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
-Pferd,Philip,ZHN 02,18.09.2023,08:00,18.09.2023,17:00,N,nicht entsch.
-Pferd,Philip,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,N,nicht entsch.
-Pferd,Philip,ZHN 02,25.09.2023,08:00,27.09.2023,17:00,A,entsch.
-Pferd,Philip,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Pferd,Philip,ZHN 02,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
-Pferd,Philip,ZHN 02,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
-Bär,Adrian,ZHN 02,18.09.2023,08:00,19.09.2023,17:00,K,entsch.
-Langname,Vorname,Klasse,Beginndatum,Beginnzeit,Enddatum,Endzeit,Abwesenheitsgrund,Status
-Haase,Mike,FIA 14,30.08.2023,08:00,30.08.2023,17:00,K,entsch.
-Haase,Mike,FIA 14,04.09.2023,08:00,04.09.2023,09:30,K,entsch.
-Haase,Mike,FIA 14,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
-Haase,Mike,FIA 14,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
-Haase,Mike,FIA 14,12.10.2023,08:00,12.10.2023,08:06,V,nicht entsch.
-Haase,Mike,FIA 14,12.10.2023,09:45,12.10.2023,17:00,K,entsch.
-Giraffe,Max,FIA 14,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
-Giraffe,Max,FIA 14,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
-Giraffe,Max,FIA 14,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
-Giraffe,Max,FIA 14,20.09.2023,08:00,20.09.2023,17:00,A,entsch.
-Giraffe,Max,FIA 14,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
-Giraffe,Max,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Giraffe,Max,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Giraffe,Max,FIA 14,08.11.2023,08:00,08.11.2023,17:00,P,entsch.
-Giraffe,Max,FIA 14,09.11.2023,08:00,09.11.2023,08:02,V,nicht entsch.
-Löwe,Lisa,FIA 14,06.09.2023,08:00,06.09.2023,08:19,V,nicht entsch.
-Löwe,Lisa,FIA 14,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
-Löwe,Lisa,FIA 14,14.09.2023,08:00,14.09.2023,11:15,N,nicht entsch.
-Löwe,Lisa,FIA 14,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
-Löwe,Lisa,FIA 14,18.09.2023,08:00,18.09.2023,08:53,V,nicht entsch.
-Löwe,Lisa,FIA 14,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
-Löwe,Lisa,FIA 14,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
-Löwe,Lisa,FIA 14,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
-Löwe,Lisa,FIA 14,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
-Löwe,Lisa,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Löwe,Lisa,FIA 14,04.10.2023,08:00,04.10.2023,09:30,N,nicht entsch.
-Löwe,Lisa,FIA 14,05.10.2023,08:00,05.10.2023,09:50,A,entsch.
-Löwe,Lisa,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Löwe,Lisa,FIA 14,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
-Löwe,Lisa,FIA 14,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
-Löwe,Lisa,FIA 14,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
-Löwe,Lisa,FIA 14,19.10.2023,08:00,19.10.2023,18:30,A,entsch.
-Löwe,Lisa,FIA 14,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
-Löwe,Lisa,FIA 14,09.11.2023,08:00,10.11.2023,17:00,A,entsch.
-Löwe,Lisa,FIA 14,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
-Löwe,Lisa,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Ameise,Gina,FIA 14,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Ameise,Gina,FIA 14,14.11.2023,08:00,14.11.2023,08:10,N,nicht entsch.
-Ameisenbär,Francois,FIA 14,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
-Ameisenbär,Francois,FIA 14,12.09.2023,08:00,12.09.2023,08:05,N,nicht entsch.
-Ameisenbär,Francois,FIA 14,14.09.2023,08:00,14.09.2023,09:30,N,nicht entsch.
-Ameisenbär,Francois,FIA 14,21.09.2023,13:30,21.09.2023,15:00,K,entsch.
-Ameisenbär,Francois,FIA 14,25.09.2023,13:30,25.09.2023,17:00,N,nicht entsch.
-Ameisenbär,Francois,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Ameisenbär,Francois,FIA 14,05.10.2023,08:00,05.10.2023,08:08,V,nicht entsch.
-Ameisenbär,Francois,FIA 14,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
-Ameisenbär,Francois,FIA 14,12.10.2023,08:00,13.10.2023,17:00,A,entsch.
-Ameisenbär,Francois,FIA 14,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
-Tiger,Karl,FIA 14,30.08.2023,09:45,04.09.2023,08:00,A,entsch.
-Tiger,Karl,FIA 14,13.09.2023,08:00,13.09.2023,08:06,V,nicht entsch.
-Tiger,Karl,FIA 14,29.09.2023,13:30,29.09.2023,15:00,K,entsch.
-Geier,Carolina,FIA 14,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
-Geier,Carolina,FIA 14,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
-Geier,Carolina,FIA 14,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
-Geier,Carolina,FIA 14,19.09.2023,13:30,19.09.2023,15:00,P,entsch.
-Geier,Carolina,FIA 14,25.09.2023,08:00,25.09.2023,17:00,A,entsch.
-Geier,Carolina,FIA 14,26.09.2023,09:45,26.09.2023,09:57,V,nicht entsch.
-Geier,Carolina,FIA 14,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,28.08.2023,08:00,30.08.2023,18:30,A,entsch.
-Ratte,Gustav,FIA 14,31.08.2023,08:00,31.08.2023,08:06,V,nicht entsch.
-Ratte,Gustav,FIA 14,05.09.2023,08:00,05.09.2023,09:30,P,entsch.
-Ratte,Gustav,FIA 14,06.09.2023,08:00,06.09.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,07.09.2023,08:00,07.09.2023,09:30,K,entsch.
-Ratte,Gustav,FIA 14,11.09.2023,08:00,11.09.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,21.09.2023,08:00,21.09.2023,09:30,K,entsch.
-Ratte,Gustav,FIA 14,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,05.10.2023,08:00,05.10.2023,08:07,V,nicht entsch.
-Ratte,Gustav,FIA 14,06.10.2023,13:30,06.10.2023,15:00,P,entsch.
-Ratte,Gustav,FIA 14,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,11.10.2023,09:45,12.10.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Ratte,Gustav,FIA 14,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
-Ratte,Gustav,FIA 14,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
-Ratte,Gustav,FIA 14,07.11.2023,09:45,07.11.2023,17:00,N,nicht entsch.
-Ratte,Gustav,FIA 14,08.11.2023,08:00,08.11.2023,17:00,N,nicht entsch.
-Ratte,Gustav,FIA 14,09.11.2023,08:00,09.11.2023,08:10,V,nicht entsch.
-Ratte,Gustav,FIA 14,14.11.2023,08:00,14.11.2023,09:30,N,nicht entsch.
-Esel,Mustafa,FIA 14,28.08.2023,08:00,30.08.2023,17:00,K,entsch.
-Esel,Mustafa,FIA 14,31.08.2023,08:00,31.08.2023,17:00,N,nicht entsch.
-Esel,Mustafa,FIA 14,01.09.2023,08:00,01.09.2023,17:00,A,entsch.
-Esel,Mustafa,FIA 14,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
-Esel,Mustafa,FIA 14,13.09.2023,08:00,13.09.2023,08:05,V,nicht entsch.
-Esel,Mustafa,FIA 14,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
-Esel,Mustafa,FIA 14,21.09.2023,11:35,21.09.2023,15:00,A,entsch.
-Esel,Mustafa,FIA 14,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
-Esel,Mustafa,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Esel,Mustafa,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Esel,Mustafa,FIA 14,13.10.2023,08:00,13.10.2023,17:00,A,entsch.
-Esel,Mustafa,FIA 14,06.11.2023,08:00,06.11.2023,11:15,A,entsch.
-Esel,Mustafa,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Krokodil,Tamara,FIA 14,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
-Krokodil,Tamara,FIA 14,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
-Krokodil,Tamara,FIA 14,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
-Krokodil,Tamara,FIA 14,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
-Krokodil,Tamara,FIA 14,06.10.2023,08:00,06.10.2023,09:45,P,entsch.
-Krokodil,Tamara,FIA 14,11.10.2023,09:45,11.10.2023,10:08,V,nicht entsch.
-Krokodil,Tamara,FIA 14,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
-Krokodil,Tamara,FIA 14,14.11.2023,08:00,14.11.2023,11:15,P,entsch.
-Krokodil,Tamara,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,04.09.2023,08:00,04.09.2023,17:00,P,entsch.
-Papagei,Enzo,FIA 14,06.09.2023,08:00,06.09.2023,18:30,A,entsch.
-Papagei,Enzo,FIA 14,13.09.2023,08:00,13.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,18.09.2023,08:00,18.09.2023,08:52,V,nicht entsch.
-Papagei,Enzo,FIA 14,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
-Papagei,Enzo,FIA 14,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
-Papagei,Enzo,FIA 14,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
-Papagei,Enzo,FIA 14,27.09.2023,08:00,27.09.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Papagei,Enzo,FIA 14,05.10.2023,08:00,05.10.2023,09:50,N,nicht entsch.
-Papagei,Enzo,FIA 14,09.10.2023,08:00,09.10.2023,18:30,A,entsch.
-Papagei,Enzo,FIA 14,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
-Papagei,Enzo,FIA 14,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
-Papagei,Enzo,FIA 14,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
-Papagei,Enzo,FIA 14,19.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Papagei,Enzo,FIA 14,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
-Papagei,Enzo,FIA 14,09.11.2023,08:00,09.11.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,10.11.2023,08:00,10.11.2023,17:00,N,nicht entsch.
-Papagei,Enzo,FIA 14,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
-Papagei,Enzo,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Elefant,Marc,FIA 14,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
-Elefant,Marc,FIA 14,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
-Elefant,Marc,FIA 14,18.09.2023,08:00,18.09.2023,08:23,V,nicht entsch.
-Elefant,Marc,FIA 14,28.09.2023,08:00,28.09.2023,17:00,A,entsch.
-Elefant,Marc,FIA 14,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Elefant,Marc,FIA 14,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
-Elefant,Marc,FIA 14,19.10.2023,11:35,20.10.2023,17:00,A,entsch.
-Elefant,Marc,FIA 14,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
-Elefant,Marc,FIA 14,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
-Elefant,Marc,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Spinne,Sabine,FIA 14,07.09.2023,08:00,07.09.2023,08:16,V,nicht entsch.
-Zebra,Tom,FIA 14,29.08.2023,08:00,29.08.2023,18:30,K,entsch.
-Zebra,Tom,FIA 14,05.09.2023,08:00,05.09.2023,18:30,K,entsch.
-Zebra,Tom,FIA 14,06.09.2023,08:00,06.09.2023,09:30,P,entsch.
-Zebra,Tom,FIA 14,07.09.2023,08:00,07.09.2023,08:10,V,nicht entsch.
-Zebra,Tom,FIA 14,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
-Zebra,Tom,FIA 14,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
-Zebra,Tom,FIA 14,18.09.2023,08:00,18.09.2023,08:12,V,nicht entsch.
-Zebra,Tom,FIA 14,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
-Zebra,Tom,FIA 14,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
-Zebra,Tom,FIA 14,26.09.2023,09:45,26.09.2023,09:55,V,nicht entsch.
-Zebra,Tom,FIA 14,28.09.2023,08:00,28.09.2023,08:06,V,nicht entsch.
-Zebra,Tom,FIA 14,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Zebra,Tom,FIA 14,04.10.2023,08:00,04.10.2023,08:06,V,nicht entsch.
-Zebra,Tom,FIA 14,06.10.2023,12:04,06.10.2023,17:00,N,nicht entsch.
-Zebra,Tom,FIA 14,09.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Zebra,Tom,FIA 14,12.10.2023,08:00,12.10.2023,09:30,P,entsch.
-Zebra,Tom,FIA 14,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
-Zebra,Tom,FIA 14,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
-Zebra,Tom,FIA 14,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
-Zebra,Tom,FIA 14,06.11.2023,08:00,06.11.2023,08:24,V,nicht entsch.
-Zebra,Tom,FIA 14,08.11.2023,08:00,08.11.2023,11:15,N,nicht entsch.
-Zebra,Tom,FIA 14,13.11.2023,08:00,13.11.2023,17:00,N,nicht entsch.
-Zebra,Tom,FIA 14,14.11.2023,08:00,14.11.2023,09:30,P,entsch.
-Igel,Serhan,FIA 14,04.09.2023,08:00,04.09.2023,13:30,P,entsch.
-Igel,Serhan,FIA 14,08.09.2023,11:35,08.09.2023,17:00,N,nicht entsch.
-Igel,Serhan,FIA 14,21.09.2023,13:30,21.09.2023,15:00,P,entsch.
-Igel,Serhan,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Igel,Serhan,FIA 14,04.10.2023,08:00,05.10.2023,17:00,A,entsch.
-Igel,Serhan,FIA 14,12.10.2023,08:00,12.10.2023,08:10,V,nicht entsch.
-Igel,Serhan,FIA 14,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
-Igel,Serhan,FIA 14,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
-Igel,Serhan,FIA 14,20.10.2023,08:00,20.10.2023,08:17,V,nicht entsch.
-Igel,Serhan,FIA 14,14.11.2023,08:06,14.11.2023,09:30,N,nicht entsch.
-Igel,Serhan,FIA 14,15.11.2023,11:35,15.11.2023,15:00,P,entsch.
-Moskito,Zekeria,FIA 14,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
-Moskito,Zekeria,FIA 14,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
-Moskito,Zekeria,FIA 14,20.09.2023,08:00,20.09.2023,17:00,K,entsch.
-Moskito,Zekeria,FIA 14,26.09.2023,09:45,26.09.2023,10:05,V,nicht entsch.
-Moskito,Zekeria,FIA 14,29.09.2023,13:30,29.09.2023,17:00,N,nicht entsch.
-Moskito,Zekeria,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Moskito,Zekeria,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Moskito,Zekeria,FIA 14,13.10.2023,08:00,13.10.2023,18:30,A,entsch.
-Moskito,Zekeria,FIA 14,17.10.2023,08:00,17.10.2023,17:00,A,entsch.
-Moskito,Zekeria,FIA 14,20.10.2023,08:00,20.10.2023,17:00,A,entsch.
-Moskito,Zekeria,FIA 14,06.11.2023,08:00,06.11.2023,18:30,K,entsch.
-Moskito,Zekeria,FIA 14,09.11.2023,08:00,09.11.2023,09:30,N,nicht entsch.
-Moskito,Zekeria,FIA 14,10.11.2023,08:00,10.11.2023,17:00,A,entsch.
-Maus,Maggi,FIA 14,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
-Maus,Maggi,FIA 14,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
-Maus,Maggi,FIA 14,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
-Maus,Maggi,FIA 14,09.11.2023,08:00,09.11.2023,09:30,P,entsch.
-Maus,Maggi,FIA 14,14.11.2023,08:00,15.11.2023,17:00,A,entsch.
-Maus,Maggi,FIA 14,16.11.2023,13:30,16.11.2023,18:30,K,entsch.
-Katze,Theresa,FIA 14,29.08.2023,13:30,29.08.2023,17:00,K,entsch.
-Katze,Theresa,FIA 14,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
-Katze,Theresa,FIA 14,04.09.2023,08:00,05.09.2023,18:30,A,entsch.
-Katze,Theresa,FIA 14,07.09.2023,08:00,07.09.2023,17:00,A,entsch.
-Katze,Theresa,FIA 14,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
-Katze,Theresa,FIA 14,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
-Katze,Theresa,FIA 14,18.09.2023,08:00,22.09.2023,17:00,A,entsch.
-Katze,Theresa,FIA 14,25.09.2023,13:30,25.09.2023,15:00,K,entsch.
-Katze,Theresa,FIA 14,28.09.2023,08:00,28.09.2023,08:05,V,nicht entsch.
-Katze,Theresa,FIA 14,28.09.2023,13:30,28.09.2023,15:00,K,entsch.
-Katze,Theresa,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Katze,Theresa,FIA 14,05.10.2023,08:00,09.10.2023,18:30,A,entsch.
-Katze,Theresa,FIA 14,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Katze,Theresa,FIA 14,13.10.2023,11:35,13.10.2023,17:00,A,entsch.
-Katze,Theresa,FIA 14,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
-Katze,Theresa,FIA 14,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
-Hund,Vera,FIA 14,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
-Hund,Vera,FIA 14,30.08.2023,08:00,30.08.2023,09:30,P,entsch.
-Hund,Vera,FIA 14,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
-Hund,Vera,FIA 14,28.09.2023,09:45,28.09.2023,10:30,P,entsch.
-Hund,Vera,FIA 14,28.09.2023,13:30,28.09.2023,15:00,N,nicht entsch.
-Rotkehlchen,Jan,FIA 14,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
-Rotkehlchen,Jan,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
-Rotkehlchen,Jan,FIA 14,04.10.2023,08:00,06.10.2023,17:00,A,entsch.
-Rotkehlchen,Jan,FIA 14,17.10.2023,13:30,17.10.2023,15:00,K,entsch.
-Schwein,Sibylle,FIA 14,08.09.2023,12:45,08.09.2023,12:55,N,nicht entsch.
-Schwein,Sibylle,FIA 14,13.09.2023,09:00,13.09.2023,17:00,K,entsch.
-Schwein,Sibylle,FIA 14,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
-Schwein,Sibylle,FIA 14,22.09.2023,12:15,22.09.2023,12:20,N,nicht entsch.
-Schwein,Sibylle,FIA 14,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
-Schwein,Sibylle,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
-Schwein,Sibylle,FIA 14,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
-Schwein,Sibylle,FIA 14,13.11.2023,08:00,13.11.2023,09:05,P,entsch.
-Schwein,Sibylle,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Schlange,Nico,FIA 14,31.08.2023,08:00,31.08.2023,18:30,K,entsch.
-Schlange,Nico,FIA 14,13.09.2023,09:45,13.09.2023,17:00,N,nicht entsch.
-Schlange,Nico,FIA 14,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
-Schlange,Nico,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Schlange,Nico,FIA 14,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
-Schlange,Nico,FIA 14,05.10.2023,08:00,10.10.2023,17:00,A,entsch.
-Schlange,Nico,FIA 14,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
-Schlange,Nico,FIA 14,19.10.2023,08:00,20.10.2023,17:00,A,entsch.
-Tapir,Ludwig,FIA 14,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
-Tapir,Ludwig,FIA 14,04.09.2023,08:00,04.09.2023,18:30,K,entsch.
-Tapir,Ludwig,FIA 14,06.09.2023,08:00,06.09.2023,18:30,K,entsch.
-Tapir,Ludwig,FIA 14,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
-Tapir,Ludwig,FIA 14,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
-Tapir,Ludwig,FIA 14,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
-Tapir,Ludwig,FIA 14,18.09.2023,08:00,18.09.2023,11:15,N,nicht entsch.
-Tapir,Ludwig,FIA 14,19.09.2023,08:00,19.09.2023,17:00,P,entsch.
-Tapir,Ludwig,FIA 14,26.09.2023,09:45,26.09.2023,17:00,N,nicht entsch.
-Tapir,Ludwig,FIA 14,29.09.2023,13:05,29.09.2023,15:00,K,entsch.
-Tapir,Ludwig,FIA 14,05.10.2023,09:45,05.10.2023,17:00,K,entsch.
-Tapir,Ludwig,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
-Tapir,Ludwig,FIA 14,12.10.2023,08:00,12.10.2023,09:30,N,nicht entsch.
-Tapir,Ludwig,FIA 14,12.10.2023,13:30,12.10.2023,15:00,K,entsch.
-Tapir,Ludwig,FIA 14,16.10.2023,08:00,16.10.2023,17:00,A,entsch.
-Tapir,Ludwig,FIA 14,19.10.2023,08:00,19.10.2023,08:10,V,nicht entsch.
-Tapir,Ludwig,FIA 14,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
-Tapir,Ludwig,FIA 14,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
-Tapir,Ludwig,FIA 14,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
-Tapir,Ludwig,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
-Schildkröte,Ahmad,FIA 14,04.09.2023,08:00,04.09.2023,08:20,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,06.09.2023,13:30,06.09.2023,17:00,N,nicht entsch.
-Schildkröte,Ahmad,FIA 14,07.09.2023,08:00,07.09.2023,08:04,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,19.09.2023,08:00,19.09.2023,08:04,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,25.09.2023,08:00,25.09.2023,08:09,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,28.09.2023,08:00,28.09.2023,08:09,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,29.09.2023,08:00,29.09.2023,08:14,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
-Schildkröte,Ahmad,FIA 14,05.10.2023,08:00,05.10.2023,17:00,K,entsch.
-Schildkröte,Ahmad,FIA 14,09.10.2023,08:00,09.10.2023,11:15,N,nicht entsch.
-Schildkröte,Ahmad,FIA 14,11.10.2023,09:45,11.10.2023,10:01,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
-Schildkröte,Ahmad,FIA 14,07.11.2023,09:45,07.11.2023,10:00,V,nicht entsch.
-Pferd,Philip,FIA 14,29.08.2023,09:45,29.08.2023,17:00,P,entsch.
-Pferd,Philip,FIA 14,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
-Pferd,Philip,FIA 14,11.09.2023,08:00,13.09.2023,18:30,A,entsch.
-Pferd,Philip,FIA 14,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
-Pferd,Philip,FIA 14,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
-Pferd,Philip,FIA 14,18.09.2023,08:00,18.09.2023,17:00,N,nicht entsch.
-Pferd,Philip,FIA 14,21.09.2023,08:00,21.09.2023,09:30,N,nicht entsch.
-Pferd,Philip,FIA 14,25.09.2023,08:00,27.09.2023,17:00,A,entsch.
-Pferd,Philip,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
-Pferd,Philip,FIA 14,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
-Pferd,Philip,FIA 14,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
-Bär,Adrian,FIA 14,18.09.2023,08:00,19.09.2023,17:00,K,entsch.
+ID,Langname - Vorname,Klasse,Beginndatum,Beginnzeit,Enddatum,Endzeit,Abwesenheitsgrund,Status
+haase_mike,Haase - Mike,ZHN 02,30.08.2023,08:00,30.08.2023,17:00,K,entsch.
+haase_mike,Haase - Mike,ZHN 02,04.09.2023,08:00,04.09.2023,09:30,K,entsch.
+haase_mike,Haase - Mike,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
+haase_mike,Haase - Mike,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
+haase_mike,Haase - Mike,ZHN 02,12.10.2023,08:00,12.10.2023,08:06,V,nicht entsch.
+haase_mike,Haase - Mike,ZHN 02,12.10.2023,09:45,12.10.2023,17:00,K,entsch.
+giraffe_max,Giraffe - Max,ZHN 02,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
+giraffe_max,Giraffe - Max,ZHN 02,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
+giraffe_max,Giraffe - Max,ZHN 02,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
+giraffe_max,Giraffe - Max,ZHN 02,20.09.2023,08:00,20.09.2023,17:00,A,entsch.
+giraffe_max,Giraffe - Max,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
+giraffe_max,Giraffe - Max,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+giraffe_max,Giraffe - Max,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+giraffe_max,Giraffe - Max,ZHN 02,08.11.2023,08:00,08.11.2023,17:00,P,entsch.
+giraffe_max,Giraffe - Max,ZHN 02,09.11.2023,08:00,09.11.2023,08:02,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,06.09.2023,08:00,06.09.2023,08:19,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,14.09.2023,08:00,14.09.2023,11:15,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,18.09.2023,08:00,18.09.2023,08:53,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,04.10.2023,08:00,04.10.2023,09:30,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,05.10.2023,08:00,05.10.2023,09:50,A,entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,19.10.2023,08:00,19.10.2023,18:30,A,entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,09.11.2023,08:00,10.11.2023,17:00,A,entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+ameise_gina,Ameise - Gina,ZHN 02,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
+ameise_gina,Ameise - Gina,ZHN 02,14.11.2023,08:00,14.11.2023,08:10,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,12.09.2023,08:00,12.09.2023,08:05,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,14.09.2023,08:00,14.09.2023,09:30,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,21.09.2023,13:30,21.09.2023,15:00,K,entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,25.09.2023,13:30,25.09.2023,17:00,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,05.10.2023,08:00,05.10.2023,08:08,V,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,12.10.2023,08:00,13.10.2023,17:00,A,entsch.
+ameisenbaer_francois,Ameisenbär - Francois,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
+Tiger_Karl,Tiger - Karl,ZHN 02,30.08.2023,09:45,04.09.2023,08:00,A,entsch.
+Tiger_Karl,Tiger - Karl,ZHN 02,13.09.2023,08:00,13.09.2023,08:06,V,nicht entsch.
+Tiger_Karl,Tiger - Karl,ZHN 02,29.09.2023,13:30,29.09.2023,15:00,K,entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,19.09.2023,13:30,19.09.2023,15:00,P,entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,25.09.2023,08:00,25.09.2023,17:00,A,entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,26.09.2023,09:45,26.09.2023,09:57,V,nicht entsch.
+Geier_Carolina,Geier - Carolina,ZHN 02,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,28.08.2023,08:00,30.08.2023,18:30,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,31.08.2023,08:00,31.08.2023,08:06,V,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,05.09.2023,08:00,05.09.2023,09:30,P,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,06.09.2023,08:00,06.09.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,07.09.2023,08:00,07.09.2023,09:30,K,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,11.09.2023,08:00,11.09.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,K,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,05.10.2023,08:00,05.10.2023,08:07,V,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,06.10.2023,13:30,06.10.2023,15:00,P,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,11.10.2023,09:45,12.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,07.11.2023,09:45,07.11.2023,17:00,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,08.11.2023,08:00,08.11.2023,17:00,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,09.11.2023,08:00,09.11.2023,08:10,V,nicht entsch.
+ratte_gustav,Ratte - Gustav,ZHN 02,14.11.2023,08:00,14.11.2023,09:30,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,28.08.2023,08:00,30.08.2023,17:00,K,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,31.08.2023,08:00,31.08.2023,17:00,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,01.09.2023,08:00,01.09.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,13.09.2023,08:00,13.09.2023,08:05,V,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,21.09.2023,11:35,21.09.2023,15:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,13.10.2023,08:00,13.10.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,06.11.2023,08:00,06.11.2023,11:15,A,entsch.
+Esel_Mustafa,Esel - Mustafa,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,06.10.2023,08:00,06.10.2023,09:45,P,entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,11.10.2023,09:45,11.10.2023,10:08,V,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,14.11.2023,08:00,14.11.2023,11:15,P,entsch.
+Krokodil_Tamara,Krokodil - Tamara,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,04.09.2023,08:00,04.09.2023,17:00,P,entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,06.09.2023,08:00,06.09.2023,18:30,A,entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,18.09.2023,08:00,18.09.2023,08:52,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,27.09.2023,08:00,27.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,05.10.2023,08:00,05.10.2023,09:50,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,09.10.2023,08:00,09.10.2023,18:30,A,entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,19.10.2023,08:00,19.10.2023,17:00,A,entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,09.11.2023,08:00,09.11.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,10.11.2023,08:00,10.11.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,18.09.2023,08:00,18.09.2023,08:23,V,nicht entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,28.09.2023,08:00,28.09.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,19.10.2023,11:35,20.10.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
+Elefant_Marc,Elefant - Marc,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+spinne_sabine,Spinne - Sabine,ZHN 02,07.09.2023,08:00,07.09.2023,08:16,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,29.08.2023,08:00,29.08.2023,18:30,K,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,05.09.2023,08:00,05.09.2023,18:30,K,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,06.09.2023,08:00,06.09.2023,09:30,P,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,07.09.2023,08:00,07.09.2023,08:10,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,18.09.2023,08:00,18.09.2023,08:12,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,26.09.2023,09:45,26.09.2023,09:55,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,28.09.2023,08:00,28.09.2023,08:06,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,04.10.2023,08:00,04.10.2023,08:06,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,06.10.2023,12:04,06.10.2023,17:00,N,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,09.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,12.10.2023,08:00,12.10.2023,09:30,P,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,06.11.2023,08:00,06.11.2023,08:24,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,08.11.2023,08:00,08.11.2023,11:15,N,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,13.11.2023,08:00,13.11.2023,17:00,N,nicht entsch.
+Zebra_Tom,Zebra - Tom,ZHN 02,14.11.2023,08:00,14.11.2023,09:30,P,entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,04.09.2023,08:00,04.09.2023,13:30,P,entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,08.09.2023,11:35,08.09.2023,17:00,N,nicht entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,21.09.2023,13:30,21.09.2023,15:00,P,entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,04.10.2023,08:00,05.10.2023,17:00,A,entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,12.10.2023,08:00,12.10.2023,08:10,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,20.10.2023,08:00,20.10.2023,08:17,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,14.11.2023,08:06,14.11.2023,09:30,N,nicht entsch.
+levitchi_serhan,Igel - Serhan,ZHN 02,15.11.2023,11:35,15.11.2023,15:00,P,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,20.09.2023,08:00,20.09.2023,17:00,K,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,26.09.2023,09:45,26.09.2023,10:05,V,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,29.09.2023,13:30,29.09.2023,17:00,N,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,13.10.2023,08:00,13.10.2023,18:30,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,17.10.2023,08:00,17.10.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,06.11.2023,08:00,06.11.2023,18:30,K,entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,09.11.2023,08:00,09.11.2023,09:30,N,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,ZHN 02,10.11.2023,08:00,10.11.2023,17:00,A,entsch.
+Maus_Maggi,Maus - Maggi,ZHN 02,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
+Maus_Maggi,Maus - Maggi,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
+Maus_Maggi,Maus - Maggi,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
+Maus_Maggi,Maus - Maggi,ZHN 02,09.11.2023,08:00,09.11.2023,09:30,P,entsch.
+Maus_Maggi,Maus - Maggi,ZHN 02,14.11.2023,08:00,15.11.2023,17:00,A,entsch.
+Maus_Maggi,Maus - Maggi,ZHN 02,16.11.2023,13:30,16.11.2023,18:30,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,29.08.2023,13:30,29.08.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,04.09.2023,08:00,05.09.2023,18:30,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,07.09.2023,08:00,07.09.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,18.09.2023,08:00,22.09.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,25.09.2023,13:30,25.09.2023,15:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,28.09.2023,08:00,28.09.2023,08:05,V,nicht entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,28.09.2023,13:30,28.09.2023,15:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,05.10.2023,08:00,09.10.2023,18:30,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,13.10.2023,11:35,13.10.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,ZHN 02,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
+Hund_Vera,Hund - Vera,ZHN 02,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
+Hund_Vera,Hund - Vera,ZHN 02,30.08.2023,08:00,30.08.2023,09:30,P,entsch.
+Hund_Vera,Hund - Vera,ZHN 02,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
+Hund_Vera,Hund - Vera,ZHN 02,28.09.2023,09:45,28.09.2023,10:30,P,entsch.
+Hund_Vera,Hund - Vera,ZHN 02,28.09.2023,13:30,28.09.2023,15:00,N,nicht entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,ZHN 02,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,ZHN 02,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,ZHN 02,04.10.2023,08:00,06.10.2023,17:00,A,entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,ZHN 02,17.10.2023,13:30,17.10.2023,15:00,K,entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,08.09.2023,12:45,08.09.2023,12:55,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,13.09.2023,09:00,13.09.2023,17:00,K,entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,22.09.2023,12:15,22.09.2023,12:20,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,13.11.2023,08:00,13.11.2023,09:05,P,entsch.
+Schwein_Sibylle,Schwein - Sibylle,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,31.08.2023,08:00,31.08.2023,18:30,K,entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,13.09.2023,09:45,13.09.2023,17:00,N,nicht entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,05.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
+Schlange_Nico,Schlange - Nico,ZHN 02,19.10.2023,08:00,20.10.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,04.09.2023,08:00,04.09.2023,18:30,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,06.09.2023,08:00,06.09.2023,18:30,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,18.09.2023,08:00,18.09.2023,11:15,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,19.09.2023,08:00,19.09.2023,17:00,P,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,26.09.2023,09:45,26.09.2023,17:00,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,29.09.2023,13:05,29.09.2023,15:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,05.10.2023,09:45,05.10.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,12.10.2023,08:00,12.10.2023,09:30,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,12.10.2023,13:30,12.10.2023,15:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,16.10.2023,08:00,16.10.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,19.10.2023,08:00,19.10.2023,08:10,V,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,ZHN 02,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,04.09.2023,08:00,04.09.2023,08:20,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,06.09.2023,13:30,06.09.2023,17:00,N,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,07.09.2023,08:00,07.09.2023,08:04,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,19.09.2023,08:00,19.09.2023,08:04,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,25.09.2023,08:00,25.09.2023,08:09,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,28.09.2023,08:00,28.09.2023,08:09,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,29.09.2023,08:00,29.09.2023,08:14,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,05.10.2023,08:00,05.10.2023,17:00,K,entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,09.10.2023,08:00,09.10.2023,11:15,N,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,11.10.2023,09:45,11.10.2023,10:01,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,ZHN 02,07.11.2023,09:45,07.11.2023,10:00,V,nicht entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,29.08.2023,09:45,29.08.2023,17:00,P,entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,11.09.2023,08:00,13.09.2023,18:30,A,entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,18.09.2023,08:00,18.09.2023,17:00,N,nicht entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,21.09.2023,08:00,21.09.2023,09:30,N,nicht entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,25.09.2023,08:00,27.09.2023,17:00,A,entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
+Pferd_philip,Pferd - Philip,ZHN 02,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
+baer_adrian,Bär - Adrian,ZHN 02,18.09.2023,08:00,19.09.2023,17:00,K,entsch.
+haase_mike,Haase - Mike,FIA 14,30.08.2023,08:00,30.08.2023,17:00,K,entsch.
+haase_mike,Haase - Mike,FIA 14,04.09.2023,08:00,04.09.2023,09:30,K,entsch.
+haase_mike,Haase - Mike,FIA 14,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
+haase_mike,Haase - Mike,FIA 14,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
+haase_mike,Haase - Mike,FIA 14,12.10.2023,08:00,12.10.2023,08:06,V,nicht entsch.
+haase_mike,Haase - Mike,FIA 14,12.10.2023,09:45,12.10.2023,17:00,K,entsch.
+giraffe_max,Giraffe - Max,FIA 14,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
+giraffe_max,Giraffe - Max,FIA 14,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
+giraffe_max,Giraffe - Max,FIA 14,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
+giraffe_max,Giraffe - Max,FIA 14,20.09.2023,08:00,20.09.2023,17:00,A,entsch.
+giraffe_max,Giraffe - Max,FIA 14,21.09.2023,08:00,21.09.2023,09:30,P,entsch.
+giraffe_max,Giraffe - Max,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+giraffe_max,Giraffe - Max,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+giraffe_max,Giraffe - Max,FIA 14,08.11.2023,08:00,08.11.2023,17:00,P,entsch.
+giraffe_max,Giraffe - Max,FIA 14,09.11.2023,08:00,09.11.2023,08:02,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,06.09.2023,08:00,06.09.2023,08:19,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,07.09.2023,08:00,07.09.2023,08:05,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,14.09.2023,08:00,14.09.2023,11:15,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,18.09.2023,08:00,18.09.2023,08:53,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,04.10.2023,08:00,04.10.2023,09:30,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,05.10.2023,08:00,05.10.2023,09:50,A,entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,19.10.2023,08:00,19.10.2023,18:30,A,entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,09.11.2023,08:00,10.11.2023,17:00,A,entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
+loewe_lisa,Löwe - Lisa,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+ameise_gina,Ameise - Gina,FIA 14,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
+ameise_gina,Ameise - Gina,FIA 14,14.11.2023,08:00,14.11.2023,08:10,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,12.09.2023,08:00,12.09.2023,08:05,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,14.09.2023,08:00,14.09.2023,09:30,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,21.09.2023,13:30,21.09.2023,15:00,K,entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,25.09.2023,13:30,25.09.2023,17:00,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,05.10.2023,08:00,05.10.2023,08:08,V,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,12.10.2023,08:00,13.10.2023,17:00,A,entsch.
+ameisenbaer_francois,Ameisenbär - Francois,FIA 14,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
+Tiger_Karl,Tiger - Karl,FIA 14,30.08.2023,09:45,04.09.2023,08:00,A,entsch.
+Tiger_Karl,Tiger - Karl,FIA 14,13.09.2023,08:00,13.09.2023,08:06,V,nicht entsch.
+Tiger_Karl,Tiger - Karl,FIA 14,29.09.2023,13:30,29.09.2023,15:00,K,entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,19.09.2023,13:30,19.09.2023,15:00,P,entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,25.09.2023,08:00,25.09.2023,17:00,A,entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,26.09.2023,09:45,26.09.2023,09:57,V,nicht entsch.
+Geier_Carolina,Geier - Carolina,FIA 14,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,28.08.2023,08:00,30.08.2023,18:30,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,31.08.2023,08:00,31.08.2023,08:06,V,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,05.09.2023,08:00,05.09.2023,09:30,P,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,06.09.2023,08:00,06.09.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,07.09.2023,08:00,07.09.2023,09:30,K,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,11.09.2023,08:00,11.09.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,21.09.2023,08:00,21.09.2023,09:30,K,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,05.10.2023,08:00,05.10.2023,08:07,V,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,06.10.2023,13:30,06.10.2023,15:00,P,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,11.10.2023,09:45,12.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,07.11.2023,09:45,07.11.2023,17:00,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,08.11.2023,08:00,08.11.2023,17:00,N,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,09.11.2023,08:00,09.11.2023,08:10,V,nicht entsch.
+ratte_gustav,Ratte - Gustav,FIA 14,14.11.2023,08:00,14.11.2023,09:30,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,28.08.2023,08:00,30.08.2023,17:00,K,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,31.08.2023,08:00,31.08.2023,17:00,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,01.09.2023,08:00,01.09.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,07.09.2023,08:00,07.09.2023,08:19,V,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,13.09.2023,08:00,13.09.2023,08:05,V,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,21.09.2023,11:35,21.09.2023,15:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,13.10.2023,08:00,13.10.2023,17:00,A,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,06.11.2023,08:00,06.11.2023,11:15,A,entsch.
+Esel_Mustafa,Esel - Mustafa,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,31.08.2023,08:00,31.08.2023,18:30,A,entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,04.09.2023,08:00,04.09.2023,08:16,V,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,18.09.2023,08:00,18.09.2023,08:34,V,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,06.10.2023,08:00,06.10.2023,09:45,P,entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,11.10.2023,09:45,11.10.2023,10:08,V,nicht entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,14.11.2023,08:00,14.11.2023,11:15,P,entsch.
+Krokodil_Tamara,Krokodil - Tamara,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,04.09.2023,08:00,04.09.2023,17:00,P,entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,06.09.2023,08:00,06.09.2023,18:30,A,entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,13.09.2023,08:00,13.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,18.09.2023,08:00,18.09.2023,08:52,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,19.09.2023,08:00,19.09.2023,08:02,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,25.09.2023,08:00,25.09.2023,08:07,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,26.09.2023,09:45,26.09.2023,10:00,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,27.09.2023,08:00,27.09.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,05.10.2023,08:00,05.10.2023,09:50,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,09.10.2023,08:00,09.10.2023,18:30,A,entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,10.10.2023,13:30,10.10.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,16.10.2023,08:00,16.10.2023,08:07,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,17.10.2023,08:00,17.10.2023,08:03,V,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,18.10.2023,08:00,18.10.2023,11:15,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,19.10.2023,08:00,19.10.2023,17:00,A,entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,20.10.2023,08:00,20.10.2023,09:30,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,09.11.2023,08:00,09.11.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,10.11.2023,08:00,10.11.2023,17:00,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,14.11.2023,08:05,14.11.2023,09:30,N,nicht entsch.
+papagei_mustafa,Papagei - Enzo,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,18.09.2023,08:00,18.09.2023,08:23,V,nicht entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,28.09.2023,08:00,28.09.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,19.10.2023,11:35,20.10.2023,17:00,A,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
+Elefant_Marc,Elefant - Marc,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+spinne_sabine,Spinne - Sabine,FIA 14,07.09.2023,08:00,07.09.2023,08:16,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,29.08.2023,08:00,29.08.2023,18:30,K,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,05.09.2023,08:00,05.09.2023,18:30,K,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,06.09.2023,08:00,06.09.2023,09:30,P,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,07.09.2023,08:00,07.09.2023,08:10,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,18.09.2023,08:00,18.09.2023,08:12,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,26.09.2023,09:45,26.09.2023,09:55,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,28.09.2023,08:00,28.09.2023,08:06,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,29.09.2023,08:00,29.09.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,04.10.2023,08:00,04.10.2023,08:06,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,06.10.2023,12:04,06.10.2023,17:00,N,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,09.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,12.10.2023,08:00,12.10.2023,09:30,P,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,18.10.2023,08:00,19.10.2023,17:00,A,entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,06.11.2023,08:00,06.11.2023,08:24,V,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,08.11.2023,08:00,08.11.2023,11:15,N,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,13.11.2023,08:00,13.11.2023,17:00,N,nicht entsch.
+Zebra_Tom,Zebra - Tom,FIA 14,14.11.2023,08:00,14.11.2023,09:30,P,entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,04.09.2023,08:00,04.09.2023,13:30,P,entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,08.09.2023,11:35,08.09.2023,17:00,N,nicht entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,21.09.2023,13:30,21.09.2023,15:00,P,entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,04.10.2023,08:00,05.10.2023,17:00,A,entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,12.10.2023,08:00,12.10.2023,08:10,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,16.10.2023,08:00,16.10.2023,08:08,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,20.10.2023,08:00,20.10.2023,08:17,V,nicht entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,14.11.2023,08:06,14.11.2023,09:30,N,nicht entsch.
+levitchi_serhan,Igel - Serhan,FIA 14,15.11.2023,11:35,15.11.2023,15:00,P,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,19.09.2023,08:00,19.09.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,20.09.2023,08:00,20.09.2023,17:00,K,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,26.09.2023,09:45,26.09.2023,10:05,V,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,29.09.2023,13:30,29.09.2023,17:00,N,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,13.10.2023,08:00,13.10.2023,18:30,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,17.10.2023,08:00,17.10.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,20.10.2023,08:00,20.10.2023,17:00,A,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,06.11.2023,08:00,06.11.2023,18:30,K,entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,09.11.2023,08:00,09.11.2023,09:30,N,nicht entsch.
+Moskito_Zekeria,Moskito - Zekeria,FIA 14,10.11.2023,08:00,10.11.2023,17:00,A,entsch.
+Maus_Maggi,Maus - Maggi,FIA 14,01.09.2023,08:00,01.09.2023,18:30,A,entsch.
+Maus_Maggi,Maus - Maggi,FIA 14,11.10.2023,09:45,11.10.2023,17:00,K,entsch.
+Maus_Maggi,Maus - Maggi,FIA 14,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
+Maus_Maggi,Maus - Maggi,FIA 14,09.11.2023,08:00,09.11.2023,09:30,P,entsch.
+Maus_Maggi,Maus - Maggi,FIA 14,14.11.2023,08:00,15.11.2023,17:00,A,entsch.
+Maus_Maggi,Maus - Maggi,FIA 14,16.11.2023,13:30,16.11.2023,18:30,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,29.08.2023,13:30,29.08.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,04.09.2023,08:00,05.09.2023,18:30,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,07.09.2023,08:00,07.09.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,18.09.2023,08:00,22.09.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,25.09.2023,13:30,25.09.2023,15:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,28.09.2023,08:00,28.09.2023,08:05,V,nicht entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,28.09.2023,13:30,28.09.2023,15:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,05.10.2023,08:00,09.10.2023,18:30,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,10.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,13.10.2023,11:35,13.10.2023,17:00,A,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,17.10.2023,08:00,17.10.2023,17:00,K,entsch.
+Katze_Theresa,Katze - Theresa,FIA 14,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
+Hund_Vera,Hund - Vera,FIA 14,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
+Hund_Vera,Hund - Vera,FIA 14,30.08.2023,08:00,30.08.2023,09:30,P,entsch.
+Hund_Vera,Hund - Vera,FIA 14,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
+Hund_Vera,Hund - Vera,FIA 14,28.09.2023,09:45,28.09.2023,10:30,P,entsch.
+Hund_Vera,Hund - Vera,FIA 14,28.09.2023,13:30,28.09.2023,15:00,N,nicht entsch.
+Hund_Vera2,Hund - Vera,FIA 14,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
+Hund_Vera2,Hund - Vera,FIA 14,30.08.2023,08:00,30.08.2023,09:30,P,entsch.
+Hund_Vera2,Hund - Vera,FIA 14,19.09.2023,08:00,20.09.2023,17:00,A,entsch.
+Hund_Vera2,Hund - Vera,FIA 14,28.09.2023,09:45,28.09.2023,10:30,P,entsch.
+Hund_Vera2,Hund - Vera,FIA 14,28.09.2023,13:30,28.09.2023,15:00,N,nicht entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,FIA 14,25.09.2023,08:00,25.09.2023,08:11,V,nicht entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,FIA 14,29.09.2023,08:00,29.09.2023,17:00,K,entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,FIA 14,04.10.2023,08:00,06.10.2023,17:00,A,entsch.
+Rotkehlchen_Jan,Rotkehlchen - Jan,FIA 14,17.10.2023,13:30,17.10.2023,15:00,K,entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,08.09.2023,12:45,08.09.2023,12:55,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,13.09.2023,09:00,13.09.2023,17:00,K,entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,15.09.2023,08:00,15.09.2023,17:00,A,entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,22.09.2023,12:15,22.09.2023,12:20,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,22.09.2023,12:30,22.09.2023,12:35,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,11.10.2023,09:45,11.10.2023,17:00,N,nicht entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,12.10.2023,13:30,12.10.2023,14:00,S,entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,13.11.2023,08:00,13.11.2023,09:05,P,entsch.
+Schwein_Sibylle,Schwein - Sibylle,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,31.08.2023,08:00,31.08.2023,18:30,K,entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,13.09.2023,09:45,13.09.2023,17:00,N,nicht entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,14.09.2023,08:00,14.09.2023,08:05,V,nicht entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,05.10.2023,08:00,10.10.2023,17:00,A,entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,18.10.2023,08:00,18.10.2023,17:00,A,entsch.
+Schlange_Nico,Schlange - Nico,FIA 14,19.10.2023,08:00,20.10.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,29.08.2023,09:45,29.08.2023,13:30,P,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,04.09.2023,08:00,04.09.2023,18:30,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,06.09.2023,08:00,06.09.2023,18:30,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,11.09.2023,08:00,11.09.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,13.09.2023,08:00,13.09.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,14.09.2023,08:00,14.09.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,18.09.2023,08:00,18.09.2023,11:15,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,19.09.2023,08:00,19.09.2023,17:00,P,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,26.09.2023,09:45,26.09.2023,17:00,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,29.09.2023,13:05,29.09.2023,15:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,05.10.2023,09:45,05.10.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,09.10.2023,08:00,09.10.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,12.10.2023,08:00,12.10.2023,09:30,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,12.10.2023,13:30,12.10.2023,15:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,16.10.2023,08:00,16.10.2023,17:00,A,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,19.10.2023,08:00,19.10.2023,08:10,V,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,20.10.2023,08:00,20.10.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,06.11.2023,08:00,06.11.2023,17:00,N,nicht entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,07.11.2023,09:45,07.11.2023,17:00,K,entsch.
+tapir_ludwig,Tapir - Ludwig,FIA 14,15.11.2023,08:00,15.11.2023,17:00,N,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,04.09.2023,08:00,04.09.2023,08:20,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,06.09.2023,13:30,06.09.2023,17:00,N,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,07.09.2023,08:00,07.09.2023,08:04,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,19.09.2023,08:00,19.09.2023,08:04,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,25.09.2023,08:00,25.09.2023,08:09,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,27.09.2023,08:00,27.09.2023,08:05,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,28.09.2023,08:00,28.09.2023,08:09,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,29.09.2023,08:00,29.09.2023,08:14,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,04.10.2023,08:00,04.10.2023,17:00,K,entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,05.10.2023,08:00,05.10.2023,17:00,K,entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,09.10.2023,08:00,09.10.2023,11:15,N,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,11.10.2023,09:45,11.10.2023,10:01,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,19.10.2023,08:00,19.10.2023,08:03,V,nicht entsch.
+schildkroete_ahmad,Schildkröte - Ahmad,FIA 14,07.11.2023,09:45,07.11.2023,10:00,V,nicht entsch.
+Pferd_philip,Pferd - Philip,FIA 14,29.08.2023,09:45,29.08.2023,17:00,P,entsch.
+Pferd_philip,Pferd - Philip,FIA 14,31.08.2023,08:00,01.09.2023,18:30,A,entsch.
+Pferd_philip,Pferd - Philip,FIA 14,11.09.2023,08:00,13.09.2023,18:30,A,entsch.
+Pferd_philip,Pferd - Philip,FIA 14,14.09.2023,08:00,14.09.2023,17:00,N,nicht entsch.
+Pferd_philip,Pferd - Philip,FIA 14,15.09.2023,08:00,15.09.2023,17:00,N,nicht entsch.
+Pferd_philip,Pferd - Philip,FIA 14,18.09.2023,08:00,18.09.2023,17:00,N,nicht entsch.
+Pferd_philip,Pferd - Philip,FIA 14,21.09.2023,08:00,21.09.2023,09:30,N,nicht entsch.
+Pferd_philip,Pferd - Philip,FIA 14,25.09.2023,08:00,27.09.2023,17:00,A,entsch.
+Pferd_philip,Pferd - Philip,FIA 14,28.09.2023,08:00,29.09.2023,17:00,A,entsch.
+Pferd_philip,Pferd - Philip,FIA 14,13.11.2023,08:00,13.11.2023,17:00,K,entsch.
+Pferd_philip,Pferd - Philip,FIA 14,14.11.2023,08:00,14.11.2023,17:00,N,nicht entsch.
+baer_adrian,Bär - Adrian,FIA 14,18.09.2023,08:00,19.09.2023,17:00,K,entsch.

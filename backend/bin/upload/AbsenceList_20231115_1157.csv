@@ -273,7 +273,6 @@ Pferd	Philip	Pferd_philip	ZHN 02	28.09.2023	08:00	29.09.2023	17:00		A	07:19	3179
 Pferd	Philip	Pferd_philip	ZHN 02	13.11.2023	08:00	13.11.2023	17:00		K		326355	entsch.		false
 Pferd	Philip	Pferd_philip	ZHN 02	14.11.2023	08:00	14.11.2023	17:00		N		326886	nicht entsch.		false
 Bär	Adrian	baer_adrian	ZHN 02	18.09.2023	08:00	19.09.2023	17:00		K	6:36	314349	entsch.		false
-Langname	Vorname	ID	Klasse	Beginndatum	Beginnzeit	Enddatum	Endzeit	Unterbrechungen	Abwesenheitsgrund	Text/Grund	Entschuldigungsnummer	Status	Entschuldigungstext	gemeldet von Schüler*in
 Haase	Mike	haase_mike	FIA 14	30.08.2023	08:00	30.08.2023	17:00		K	Krankenhaustermin 29.08.2023, 14:54	309510	entsch.		false
 Haase	Mike	haase_mike	FIA 14	04.09.2023	08:00	04.09.2023	09:30		K	07:35	310298	entsch.		false
 Haase	Mike	haase_mike	FIA 14	21.09.2023	08:00	21.09.2023	09:30		P	Arzttermin Nachweis liegt vor	315717	entsch.		false
@@ -481,6 +480,11 @@ Hund	Vera	Hund_Vera	FIA 14	30.08.2023	08:00	30.08.2023	09:30		P	Stundenplaneintr
 Hund	Vera	Hund_Vera	FIA 14	19.09.2023	08:00	20.09.2023	17:00		A		314873	entsch.		false
 Hund	Vera	Hund_Vera	FIA 14	28.09.2023	09:45	28.09.2023	10:30		P	Mietvertrag unterschreiben	317283	entsch.		false
 Hund	Vera	Hund_Vera	FIA 14	28.09.2023	13:30	28.09.2023	15:00		N		317885	nicht entsch.		false
+Hund	Vera	Hund_Vera2	FIA 14	29.08.2023	09:45	29.08.2023	13:30		P	Stundenplaneintragung verpeilt	309320	entsch.		false
+Hund	Vera	Hund_Vera2	FIA 14	30.08.2023	08:00	30.08.2023	09:30		P	Stundenplaneintragung verpeilt	309527	entsch.		false
+Hund	Vera	Hund_Vera2	FIA 14	19.09.2023	08:00	20.09.2023	17:00		A		314873	entsch.		false
+Hund	Vera	Hund_Vera2	FIA 14	28.09.2023	09:45	28.09.2023	10:30		P	Mietvertrag unterschreiben	317283	entsch.		false
+Hund	Vera	Hund_Vera2	FIA 14	28.09.2023	13:30	28.09.2023	15:00		N		317885	nicht entsch.		false
 Rotkehlchen	Jan	Rotkehlchen_Jan	FIA 14	25.09.2023	08:00	25.09.2023	08:11		V		316441	nicht entsch.		false
 Rotkehlchen	Jan	Rotkehlchen_Jan	FIA 14	29.09.2023	08:00	29.09.2023	17:00		K	6:24	317976	entsch.		false
 Rotkehlchen	Jan	Rotkehlchen_Jan	FIA 14	04.10.2023	08:00	06.10.2023	17:00		A		318574	entsch.		false
