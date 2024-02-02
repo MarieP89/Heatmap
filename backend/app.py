@@ -2,10 +2,16 @@ import os
 from flask import Flask, jsonify, request
 import pandas as pd
 from flask_cors import CORS
+import newCSV
 import evaluateData
 
 app = Flask(__name__)
 CORS(app)
+
+# newCSV.delCSV()
+# newCSV.restart()
+
+# newCSV.getPath() -> Path zum upload-Ordner der CSV
 
 @app.route('/read-csv')
 def read_csv():

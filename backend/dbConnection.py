@@ -1,12 +1,14 @@
 import sqlite3
 from sqlite3 import Error
 
+file = "backend/bin/studentDB.db"
+
 def try_connection(): 
     """ create a database connection to a SQLite database """
     conn = None
     isConnection = False
     try:
-        conn = sqlite3.connect("backend/bin/test.db")
+        conn = sqlite3.connect(file)
         isConnection = True
     except Error as e:
         print(e)
@@ -15,9 +17,8 @@ def try_connection():
             conn.close()
     return isConnection
 
-file = "backend/bin/studentDB.db"
-if try_connection(file):
-    print("succeed")
+if try_connection():
+    print("test succeed")
 
 def connect(db_file):
     conn = None
@@ -31,6 +32,7 @@ def connect(db_file):
 def disconnect(conn):
     try:
         conn.close()
+        print("Connection closed.")
     except Error as e:
         print(e)
     

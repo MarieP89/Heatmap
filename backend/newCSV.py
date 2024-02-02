@@ -1,15 +1,20 @@
-# originDoc = "backend/bin/AbsenceList_20231115_1157.csv"
-# dataDoc = "backend/bin/data.txt"
 import codecs
 import glob
+import os
 
 line = []
 dataDoc = "backend/bin/data/data.txt"
+csvPatternPath = r"backend/bin/upload/*.csv"
+
+def delCSV():
+    datei = glob.glob(csvPatternPath)
+    os.remove(datei[0])
+
+def getPath():
+    return csvPatternPath
 
 def extractData():
-    targetPattern = r"backend/bin/upload/*.csv"
-    datei = glob.glob(targetPattern)
-
+    datei = glob.glob(csvPatternPath)
     originDoc = datei[0]
 
     lines = [line.strip() for line in codecs.open(originDoc, "r", 'utf-8').readlines()]
@@ -39,5 +44,8 @@ def writeTXT(path, liste):
         doc.write(string[1:] + "\n")
     doc.close()  
 
-extractData()
-saveConDoc(dataDoc, line)
+def restart():
+    extractData()
+    saveConDoc(dataDoc, line)
+
+# restart()

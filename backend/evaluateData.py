@@ -1,5 +1,5 @@
 import codecs
-import restart
+import newCSV
 
 dataDoc = "backend/bin/data/data.txt"
 classesPath = "backend/bin/data/classes/"
@@ -19,7 +19,7 @@ def getNamesOfClass(classes: str):
         if line[2] == classes:
             students.append(line)
     path = classesPath + classes + ".txt"
-    restart.writeTXT(path, students)
+    # newCSV.writeTXT(path, students)
     
     studentNames = []
     for student in students:
@@ -31,3 +31,7 @@ for c in getClasses():
     print(getNamesOfClass(c))
 
 print(getClasses())
+
+
+
+
