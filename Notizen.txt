@@ -24,3 +24,30 @@ S - schulische Abwesendheit
 O - Online
 
 V / K, A, P / N
+
+# table 1 - Status - X
+# 1 - "nicht entsch."
+# 2 - "entsch."
+
+# table 2 - Abwesenheitsgrund - X
+# A - Krank mit Attest
+# K - Krank - ohne Attest
+# N - Unentschuldigt
+# O - Online
+# P - Private Gründe
+# S - schulische Abwesendheit
+# V - Verspätung
+
+# table 3 - Klasse - X
+# 1 - ZHN 02
+# 2 - FIA 14
+
+# table 4 - Student
+# ID - Nachname - Vorname - Klasse
+# haase_mike - Haase - Mike - 1
+# loewe_lisa - Löwe - Lisa - 2
+
+# table 5 - Abwesenheit
+# id - student_ID - Beginndatum + Beginnzeit - Enddatum + Endzeit - Abwesenheitsgrund_ID - Status_ID
+# 1 - haase_mike - 2023-08-30 08:00 - 2023-08-30 17:00 - K - 1
+# 2 - haase_mike - 2023-10-12 08:00 - 2023-10-12 08:06 - V - 0
