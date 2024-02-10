@@ -1,0 +1,21 @@
+Langname	Vorname	ID	Klasse	Beginndatum	Beginnzeit	Enddatum	Endzeit	Unterbrechungen	Abwesenheitsgrund	Text/Grund	Entschuldigungsnummer	Status	Entschuldigungstext	gemeldet von Schüler*in
+Haase	Mike	haase_mike	ZHN 02	30.08.2023	08:00	30.08.2023	17:00		K	Krankenhaustermin 29.08.2023, 14:54	309510	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	04.09.2023	08:00	04.09.2023	09:30		K	07:35	310298	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	21.09.2023	08:00	21.09.2023	09:30		P	Arzttermin Nachweis liegt vor	315717	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	12.10.2023	08:00	12.10.2023	08:06		V	S-Bahn Ausfall	321162	nicht entsch.		false
+Spinne	Sabine	spinne_sabine	ZHN 02	07.09.2023	08:00	07.09.2023	08:16		V		311391	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	29.08.2023	08:00	29.08.2023	18:30		K		309071	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	05.09.2023	08:00	05.09.2023	18:30		K	07:18	310721	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	06.09.2023	08:00	06.09.2023	09:30		P	07:37	311137	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	07.09.2023	08:00	07.09.2023	08:10		V		311395	nicht entsch.		false
+Bär	Adrian	baer_adrian	ZHN 02	18.09.2023	08:00	19.09.2023	17:00		K	6:36	314349	entsch.		false
+Löwe	Lisa	loewe_lisa	FIA 14	17.10.2023	08:00	17.10.2023	08:03		V		322524	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	FIA 14	18.10.2023	08:00	18.10.2023	11:15		N		323213	nicht entsch.		false
+Löwe	Lisa	loewe_lisa2	FIA 14	19.10.2023	08:00	19.10.2023	18:30		A	04.11.2023, 20:49	323911	entsch.		false
+Löwe	Lisa	loewe_lisa2	FIA 14	20.10.2023	08:00	20.10.2023	09:30		N		324030	nicht entsch.		false
+Löwe	Lisa	loewe_lisa2	FIA 14	09.11.2023	08:00	10.11.2023	17:00		A	13.11.	325654	entsch.		false
+Papagei	Enzo	papagei_mustafa	FIA 14	10.11.2023	08:00	10.11.2023	17:00		N		326199	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	FIA 14	14.11.2023	08:05	14.11.2023	09:30		N		326879	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	FIA 14	15.11.2023	08:00	15.11.2023	17:00		N		327313	nicht entsch.		false
+Elefant	Marc	Elefant_Marc	FIA 14	01.09.2023	08:00	01.09.2023	18:30		A		310127	entsch.		false
+Elefant	Marc	Elefant_Marc	FIA 14	14.09.2023	08:00	14.09.2023	17:00		A	7:20	313564	entsch.		false

@@ -1,0 +1,3 @@
+import newCSV
+
+newCSV.restart()
