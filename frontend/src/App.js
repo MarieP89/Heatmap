@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import Calendar from "react-calendar";
-import "react-calendar/dist/Calendar.css";
+//import "react-calendar/dist/Calendar.css";
 import axios from "axios";
 
+import "./Calender.css";
 import './App.css';
 
 function App() {
@@ -15,18 +16,15 @@ function App() {
   const [selectedLangname, setSelectedLangname] = useState('');
 
 
-    // useEffect(() => {
-    //     axios.get('http://localhost:5000/read-csv')
-    //         .then(response => {
-    //             const filteredData = response.data.map(item => {
-    //                 return { name: item.name };  // Replace 'name' with the actual property name
-    //             });
-    //             setData(filteredData);
-    //         })
-    //         .catch(error => {
-    //             console.error('Error fetching the CSV data', error);
-    //         });
-    // }, []);
+    useEffect(() => {
+        axios.get('http://localhost:5000/read-csv')
+            .then(response => {
+
+            })
+            .catch(error => {
+                console.error('Error fetching the CSV data', error);
+            });
+    }, []);
 
     useEffect(() => {
         axios.get('http://localhost:5000/get-klassen')
@@ -70,8 +68,9 @@ function App() {
 
   return (
       <div className="calender-container">
-          <h1>Kalender um meine Schüler zu stalken</h1>
+          <h1>Kalender</h1>
           <div>
+              <label htmlFor="klasse-select">Klasse:</label>
               <select onChange={handleKlasseChange} value={selectedKlasse}>
                   {klassen.map((klasse, index) => (
                       <option key={index} value={klasse}>{klasse}</option>
@@ -79,6 +78,7 @@ function App() {
               </select>
           </div>
           <div>
+              <label htmlFor="klasse-select">Schüler:</label>
               <select onChange={handleLangnameChange} value={selectedLangname}>
                   {langnames.map((langname, index) => (
                       <option key={index} value={langname}>{langname}</option>
