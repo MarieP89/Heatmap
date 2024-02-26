@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select {
+  width: 10%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calender-container{
+  padding-left: 10px;
+}
+
