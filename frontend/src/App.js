@@ -110,7 +110,11 @@ function App() {
             <h1>Kalender</h1>
             <div>
                 <label htmlFor="klasse-select">Klasse:</label>
-                <select onChange={handleKlasseChange} value={selectedKlasse}>
+                <select onChange={handleKlasseChange}
+                        value={selectedKlasse}
+                        style={{width: "200px"}}
+                >
+                    <option value="">Wähle Klasse</option>
                     {klassen.map((klasse, index) => (
                         <option key={index} value={klasse}>{klasse}</option>
                     ))}
@@ -118,7 +122,10 @@ function App() {
             </div>
             <div>
                 <label htmlFor="klasse-select">Schüler:</label>
-                <select onChange={handleLangnameChange} value={selectedLangname}>
+                <select onChange={handleLangnameChange}
+                        value={selectedLangname}
+                        style={{width: "200px"}}
+                >
                     {langnames.map((langname, index) => (
                         <option key={index} value={langname}>{langname}</option>
                     ))}
