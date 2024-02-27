@@ -154,3 +154,25 @@
 .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
 }
+
+.absence-V {
+    background-color: lightgray; /* Farbe für Verspätung */
+}
+.absence-K {
+    background-color: orange; /* Farbe für Krank ohne Attest */
+}
+.absence-P {
+    background-color: lightblue; /* Farbe für Private Gründe */
+}
+.absence-A {
+    background-color: yellow; /* Farbe für Krank mit Attest */
+}
+.absence-N {
+    background-color: red; /* Farbe für Unentschuldigt */
+}
+.absence-S {
+    background-color: green; /* Farbe für Schulische Abwesenheit */
+}
+.absence-O {
+    background-color: lightgreen; /* Farbe für Online */
+}
