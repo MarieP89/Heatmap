@@ -35,7 +35,15 @@ def disconnect(conn):
         print("Connection closed.")
     except Error as e:
         print(e)
+
+def request(conn, query: str):
+    try:
+        c = conn.cursor()
+        return c.execute(query)
+    except Error as e:
+        pass
     
+    return None;
 
 
 

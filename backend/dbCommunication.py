@@ -28,6 +28,7 @@ def createTable(query=""):
     try:
         c = conn.cursor()
         for table in tables:
+            # TODO - table exist abfragen, wenn ja, Tabelle dropen, wenn nein, next 
             c.execute("DROP TABLE " + table + ";")
             pass
         for query in querys:
@@ -124,8 +125,9 @@ def fillAbwesenheiten(conn:Connection):
 def fillDB():
     conn = dbConnection.connect("backend/bin/studentDB.db")
     c = conn.cursor()
-    # fillStatus(conn)
-    # fillAbwesenheitsgrund(conn)
+    createTable()
+    fillStatus(conn)
+    fillAbwesenheitsgrund(conn)
     fillKlasse(conn)
     # TODO
     fillStudent(conn)
