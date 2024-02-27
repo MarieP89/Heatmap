@@ -108,28 +108,30 @@ function App() {
     return (
         <div className="calender-container">
             <h1>Kalender</h1>
-            <div>
-                <label htmlFor="klasse-select">Klasse:</label>
-                <select onChange={handleKlasseChange}
-                        value={selectedKlasse}
-                        style={{width: "200px"}}
-                >
-                    <option value="">Wähle Klasse</option>
-                    {klassen.map((klasse, index) => (
-                        <option key={index} value={klasse}>{klasse}</option>
-                    ))}
-                </select>
-            </div>
-            <div>
-                <label htmlFor="klasse-select">Schüler:</label>
-                <select onChange={handleLangnameChange}
-                        value={selectedLangname}
-                        style={{width: "200px"}}
-                >
-                    {langnames.map((langname, index) => (
-                        <option key={index} value={langname}>{langname}</option>
-                    ))}
-                </select>
+            <div style={{ display: 'flex', gap: '20px' }}>
+                <div>
+                    <label htmlFor="klasse-select">Klasse:</label>
+                    <select onChange={handleKlasseChange}
+                            value={selectedKlasse}
+                            style={{width: "200px"}}
+                    >
+                        <option value="">Wähle Klasse</option>
+                        {klassen.map((klasse, index) => (
+                            <option key={index} value={klasse}>{klasse}</option>
+                        ))}
+                    </select>
+                </div>
+                <div>
+                    <label htmlFor="klasse-select">Schüler:</label>
+                    <select onChange={handleLangnameChange}
+                            value={selectedLangname}
+                            style={{width: "200px"}}
+                    >
+                        {langnames.map((langname, index) => (
+                            <option key={index} value={langname}>{langname}</option>
+                        ))}
+                    </select>
+                </div>
             </div>
             <Calendar
                 onChange={handleDateChange}
