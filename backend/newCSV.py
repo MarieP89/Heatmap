@@ -3,12 +3,16 @@ import glob
 import os
 
 line = []
-dataDoc = "backend/bin/data/data.txt"
-csvPatternPath = r"backend/bin/upload/*.csv"
+dataDoc = "../backend/bin/data/data.txt"
+csvPatternPath = r"../backend/bin/*.csv"
 
 def delCSV():
-    datei = glob.glob(csvPatternPath)
-    os.remove(datei[0])
+    files = glob.glob(csvPatternPath)
+    print(f"Found files: {files}")
+    if files:  # Check if the list is not empty
+        os.remove(files[0])  # Remove the first file in the list
+    else:
+        print("No CSV files found to delete.")
 
 def getPath():
     return csvPatternPath

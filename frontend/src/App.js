@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import Calendar from "react-calendar";
 //import "react-calendar/dist/Calendar.css";
 import axios from "axios";
@@ -16,6 +16,7 @@ function App() {
     const [langnames, setLangnames] = useState([]);
     const [selectedLangname, setSelectedLangname] = useState('');
     const [absences, setAbsences] = useState([]);
+    const fileInput = React.useRef();
 
 
     useEffect(() => {
@@ -67,10 +68,6 @@ function App() {
         setSelectedLangname(selectedLangname);
     };
 
-    // const fetchData = async (selectedKlasse) => {
-    //     const responseAbsences = await axios.get(`http://localhost:5000/get-absences?langname=${selectedLangname}`);
-    //     setAbsences(responseAbsences.data);
-    // };
 
     const fetchLangnames = (selectedKlasse) => {
         axios
@@ -104,11 +101,43 @@ function App() {
         }
     };
 
+    const handleFileChange = (event) => {
+        const file = event.target.files[0];
+        const formData = new FormData();
+        formData.append('file', file);
+        axios.post('http://localhost:5000/upload-csv', formData, {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            }
+        })
+            .then(response => {
+                console.log(response);
+            })
+            .catch(error => {
+                console.error('Error uploading the CSV file', error);
+            });
+    };
+
+    const handleRestart = () => {
+        axios.post('http://localhost:5000/restart')
+            .then(response => {
+                console.log(response.data.message);
+                setSelectedKlasse('');
+                setSelectedLangname('');
+                if (fileInput.current) {
+                    fileInput.current.value = "";
+                }
+            })
+            .catch(error => {
+                console.error('Error restarting the server', error);
+            });
+    };
+
 
     return (
         <div className="calender-container">
             <h1>Kalender</h1>
-            <div style={{ display: 'flex', gap: '20px' }}>
+            <div style={{display: 'flex', gap: '20px'}}>
                 <div>
                     <label htmlFor="klasse-select">Klasse:</label>
                     <select onChange={handleKlasseChange}
@@ -132,6 +161,10 @@ function App() {
                         ))}
                     </select>
                 </div>
+            </div>
+            <div style={{margin: '20px'}}>
+                <input type="file" accept=".csv" onChange={handleFileChange} ref={fileInput}/>
+                <button onClick={handleRestart}>Server neu starten</button>
             </div>
             <Calendar
                 onChange={handleDateChange}
