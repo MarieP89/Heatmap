@@ -56,5 +56,5 @@ def getNamesOfClass(classes: str):
         [content.append([names, klasse, zeiten, abwesend]) for i in range(1, len(students))]
     return classes, studentNames, content
 
-getNamesOfClass("ZHN 02")
+# getNamesOfClass("ZHN 02")
 # print(getNamesOfClass("ZHN 02"))

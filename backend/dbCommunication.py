@@ -64,6 +64,7 @@ def fillStatus(conn:Connection):
     # conn.commit()
     print("done")
     conn.commit()
+    print("Status geladen...")
 
 
 def fillAbwesenheitsgrund(conn:Connection):
@@ -73,6 +74,7 @@ def fillAbwesenheitsgrund(conn:Connection):
         c.execute(insertValue("Abwesenheitsgrund", "id_abwesenheitsgrund_pk, beschreibung", "'" + g[0] + "', '" + g[1] + "'"))
     # conn.commit()
     conn.commit()
+    print("Abwesenheitsgrund geladen...")
 
 klassen = evaluateData.getClasses()
 # print(klassen)
@@ -83,41 +85,66 @@ def fillKlasse(conn:Connection):
     for klasse in klassen:
         c.execute(insertValue("Klasse", "id_klasse_pk, beschreibung", "NULL, '" + klasse + "'"))
     conn.commit()
+    print("Klasse geladen...")
 
 contents = []
 
 def fillStudent(conn:Connection):
     global contents
     global klassen
-    c = conn.cursor()
+    # print(klassen)
+
     for klasse in klassen:
         contents.append(evaluateData.getNamesOfClass(klasse))
-
-    # print(content)
+    
+    # print(contents[0][2][0])
 
     for klasse in contents:
         klasse_ = klasse[0]
-        studentNames = klasse[1]
-        content = klasse[2]
+        studentNamen_ = klasse[1]
+        content_ = klasse[2]
+    
+        print(studentNamen_[0])
 
-        print(klasse_)
-        # print(studentNames)
-        # print(content)
-        for students in studentNames:
-            splitName = str(students[1]).split(" - ")
-            print(splitName)
-            c.execute(insertValue("Student", "id_student_pk, nachname, vorname, id_klasse_fk", "'" + students[0] + "', '" + splitName[0] + "', '" + splitName[1] + "', '" + klasse_ + "'"))
-            conn.commit()
+        for student in studentNamen_:
+            print(student)
 
-        # ZHN 02
-        # "CREATE TABLE Student (id_student_pk, nachname, vorname, id_klasse_fk"
-        # ['Pferd_philip', 'Pferd - Philip', 'ZHN 02', '13.11.2023', '08:00', '13.11.2023', '17:00', 'K', 'entsch.']
-        # ['Pferd_philip', 'Pferd - Philip', 'ZHN 02', '14.11.2023', '08:00', '14.11.2023', '17:00', 'N', 'nicht entsch.']
-        # [['haase_mike', 'Haase - Mike'], 'ZHN 02', ['30.08.2023', '08:00', '30.08.2023', '17:00'], ['K', 'entsch.']]
-        # for student in studenten:
-        #     c.execute(insertValue("Student", "id_student_pk, nachname, vorname, id_klasse_fk", ))
-        #     print(student)
+        
 
+
+
+
+    print("Student geladen...")
+    pass
+    # c = conn.cursor()
+
+    # for klasse in contents:
+    #     studentNames = klasse[1]
+
+    #     print(klasse_)
+    #     # print(studentNames)
+    #     # print(content)
+    #     for students in studentNames:
+    #         splitName = str(students[1]).split(" - ")
+    #         print(splitName)
+    #         c.execute(insertValue("Student", "id_student_pk, nachname, vorname, id_klasse_fk", "'" + students[0] + "', '" + splitName[0] + "', '" + splitName[1] + "', '" + klasse_ + "'"))
+    #         conn.commit()
+
+    #     # ZHN 02
+    #     # "CREATE TABLE Student (id_student_pk, nachname, vorname, id_klasse_fk"
+    #     # ['Pferd_philip', 'Pferd - Philip', 'ZHN 02', '13.11.2023', '08:00', '13.11.2023', '17:00', 'K', 'entsch.']
+    #     # ['Pferd_philip', 'Pferd - Philip', 'ZHN 02', '14.11.2023', '08:00', '14.11.2023', '17:00', 'N', 'nicht entsch.']
+    #     # [['haase_mike', 'Haase - Mike'], 'ZHN 02', ['30.08.2023', '08:00', '30.08.2023', '17:00'], ['K', 'entsch.']]
+    #     # for student in studenten:
+    #     #     c.execute(insertValue("Student", "id_student_pk, nachname, vorname, id_klasse_fk", ))
+    #     #     print(student)
+
+def test():
+    conn = dbConnection.connect("backend/bin/studentDB.db")
+    fillKlasse(conn)
+    fillStudent(conn)
+
+test()
 
 def fillAbwesenheiten(conn:Connection):
     conn.commit()
@@ -135,7 +162,7 @@ def fillDB():
     # fillAbwesenheiten(conn)
     dbConnection.disconnect(conn)
 
-fillDB()
+# fillDB()
 
 
 

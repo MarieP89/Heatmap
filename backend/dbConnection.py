@@ -20,7 +20,7 @@ def try_connection():
 if try_connection():
     print("test succeed")
 
-def connect(db_file):
+def connect(db_file:str):
     conn = None
     try:
         conn = sqlite3.connect(db_file)
@@ -36,12 +36,14 @@ def disconnect(conn):
     except Error as e:
         print(e)
 
-def request(conn, query: str):
-    try:
-        c = conn.cursor()
-        return c.execute(query)
-    except Error as e:
-        pass
+def request(file:str , query: str):
+    conn = connect(file)
+    if not conn == None:
+        try:
+            c = conn.cursor()
+            return c.execute(query)
+        except Error as e:
+            pass
     
     return None;
 

@@ -1,3 +1,6 @@
 import newCSV
 
-newCSV.restart()
+newCSV.delCSV()
+
+# newCSV.restart()
+

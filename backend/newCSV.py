@@ -4,11 +4,14 @@ import os
 
 line = []
 dataDoc = "backend/bin/data/data.txt"
-csvPatternPath = r"backend/bin/upload/*.csv"
+csvPatternPath = r"backend/bin/upload*.csv"
 
 def delCSV():
     datei = glob.glob(csvPatternPath)
-    os.remove(datei[0])
+    if datei[0] == None:
+        pass
+    else:
+        os.remove(datei[0])
 
 def getPath():
     return csvPatternPath
