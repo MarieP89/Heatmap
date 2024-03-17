@@ -22,7 +22,7 @@ def getAllTableNames(db) -> list:
 
     return tables
 
-dbFile = "D:\Schule\LF12\ls12_Projekt_Heatmap\HEAT-9\Heatmap\\backup\studentDB.db"
+dbFile = "D:\\Schule\\LF12\\ls12_Projekt_Heatmap\\HEAT-9\\Heatmap\\backup\\studentDB.db"
 db = "backend/bin/studentDB.db"
 #getAllTableNames(dbFile)
 
@@ -33,7 +33,7 @@ absenceReasonEntries = evaluateData.getAbwesenheitsgrund()
 #endregion
 
 #region table Queries
-createCSVcopyTbl = "CREATE TABLE AllData (id_pk integer NOT NULL, lastname varchar(30) NOT NULL, firstname varchar(30) NOT NULL, className varchar(10) NOT NULL, start varchar(16) NOT NULL, end varchar(16) NOT NULL, absenceReason char(2), status beschreibung varchar(30) NOT NULL)"
+createCSVcopyTbl = "CREATE TABLE AllData (id integer NOT NULL, lastname varchar(30) NOT NULL, firstname varchar(30) NOT NULL, className varchar(10) NOT NULL, start varchar(16) NOT NULL, end varchar(16) NOT NULL, absenceReason char(2), status beschreibung varchar(30) NOT NULL)"
 createStatusTbl = "CREATE TABLE Status (id_status_pk integer PRIMARY KEY, beschreibung varchar(30) NOT NULL)"
 createAbsenceReasonsTbl = "CREATE TABLE Abwesenheitsgrund (id_abwesenheitsgrund_pk char(1) PRIMARY KEY, beschreibung varchar(80) NOT NULL)"
 createClassesTbl = "CREATE TABLE Klasse (id_klasse_pk integer PRIMARY KEY, beschreibung varchar(10) NOT NULL)"
@@ -54,11 +54,20 @@ def createTables():
     conn.commit()
     dbCon.disconnect(conn)
 
-createTables()
+# createTables()
 
+
+# populate AllData
+def populateAllDataTbl():
+    data = evaluateData.provideData()
+    # TODO 
+#   c.execute(insertValue("Student", "id_student_pk, nachname, vorname, id_klasse_fk", "'" + students[0] + "', '" + splitName[0] + "', '" + splitName[1] + "', '" + str(klasse_) + "'"))
+
+    pass
+
+populateAllDataTbl()
 
 # beginn und ende concaten 
-# populate AllData
 
 # populate Status -> evaluateData.getStatus()
 # populate Abwesenheitsgrund -> evaluateData.getAbwesenheitsgrund()
