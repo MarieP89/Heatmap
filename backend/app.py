@@ -41,6 +41,26 @@ def get_langnames():
     langnames = data[data['Klasse'] == selected_klasse]['Langname'].unique()
     return jsonify(langnames.tolist())
 
+
+@app.route('/get-class-absences', methods=['GET'])
+def get_all_absences():
+   selected_klasse = request.args.get('klasse')
+   base_dir = os.path.dirname(__file__)
+   csv_files = glob.glob(os.path.join(base_dir, 'bin', '*.csv'))
+   csv_files.sort(key=os.path.getmtime, reverse=True)
+   latest_csv_path = csv_files[0]
+   data = pd.read_csv(latest_csv_path, delimiter='\t')
+
+   # Filtern der Daten für die ausgewählte Klasse
+   class_data = data[data['Klasse'] == selected_klasse]
+
+   print(f"Selected class: {selected_klasse}, Number of records found: {len(class_data)}")
+
+   class_absences = class_data[['Langname', 'Beginndatum', 'Enddatum', 'Abwesenheitsgrund']].to_dict(orient='records')
+   return jsonify(class_absences)
+
+
+
 @app.route('/get-absences', methods=['GET'])
 def get_absences():
     selected_langname = request.args.get('langname')
