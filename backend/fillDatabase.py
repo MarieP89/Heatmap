@@ -119,57 +119,58 @@ def getClassTbl():
         table.append([result[0], result[1]])
     return table
 
-
-
-
-
-
-
-
 def getClassId(className:str):
     classes = getClassTbl()
     for cl in classes:
+        # print(str(cl[0]) + " - " + cl[1])
         if cl[1] == className:
             return cl[0]
+    return None
+        
+def populateStudent():
+    studentID = []
+    conn = dbCon.connect(db)
+    for entry in content:
+        if studentID.__contains__(entry[0]):
+            next
         else:
-            return None
-
-# print(getClassTbl()) # [x] - klasse mit [x][0] id und [x][1] beschreibung
+            cl = getClassId(entry[3])
+            try:
+                s = ""
+                print(cl)
+                if cl == None:
+                    next
+                else:
+                    s = "'" + entry[0] + "' , '" + entry[1] + "' , '" + entry[2] + "' , " + str(cl)
+                c = conn.cursor()
+                c.execute(insertValue(tables[4], "id_student_pk, nachname, vorname, id_klasse_fk", s))
+                studentID.append(entry[0])
+            except Error as e:
+                print(e)
+    conn.commit()
+    dbCon.disconnect(conn)
 
 # ['haase_mike', 'Haase', 'Mike', 'ZHN 02', '2023.08.30 08:00', '2023.08.30 17:00', 'K', 'entsch.']
 # tables = ["AllData", "Status", "Abwesenheitsgrund", "Klasse", "Student", "Abwesenheiten"]
-
-# "CREATE TABLE Student (id_student_pk varchar(50) PRIMARY KEY, nachname varchar(30) NOT NULL, vorname varchar(30) NOT NULL, id_klasse_fk integer, FOREIGN KEY (id_klasse_fk) REFERENCES Klasse (id_klasse_pk))"
-# populate Student
-
-def populateStudent():
-    conn = dbCon.connect(db)
-    for entry in content:
-        cl = getClassId(entry[3])
-        if cl == None:
-            s = "'" + entry[0] + "' , '" + entry[1] + "' , '" + entry[2] + "' , NULL" # TODO
-        else:
-            s = "'" + entry[0] + "' , '" + entry[1] + "' , '" + entry[2] + "' , " + str(cl)
-        print(s)
-        try:
-            c = conn.cursor()
-            c.execute(insertValue(tables[4], "id_student_pk, nachname, vorname, id_klasse_fk", s))
-        except Error as e:
-            print(e)
-    # conn.commit()
-    dbCon.disconnect(conn)
-
-populateStudent()
-
-
-
 
 # getAbsenceReasonID -> id_abwesenheitsgrund_fk
 # getStatusID -> id_status_fk
 # populate Abwesenheiten
 
+# (id_abwesenheit_pk integer PRIMARY KEY, id_student_fk varchar(50) NOT NULL, beginn varchar(16) NOT NULL, ende varchar(16) NOT NULL, id_abwesenheitsgrund_fk char(2) NOT NULL, id_status_fk integer NOT NULL, FOREIGN KEY (id_student_fk) REFERENCES Student (id_student_pk), FOREIGN KEY (id_abwesenheitsgrund_fk) REFERENCES Abwesenheitsgrund (id_abwesenheitsgrund_pk), FOREIGN KEY (id_status_fk) REFERENCES Status (id_status_pk))"
 
-
+def populateAbsenceReason():
+    conn = dbCon.connect(db)
+    for entry in content:
+        try:
+            c = conn.cursor()
+            s = "NULL, '" + entry + "', "
+            c.execute(insertValue(tables[5], "id_abwesenheit_pk, id_student_fk, beginn, ende, id_abwesenheitsgrund_fk, id_status_fk", s))
+        except Error as e:
+            print(e)
+    conn.commit()
+    dbCon.disconnect(conn)
+    pass
 
 
 # createTables()
@@ -177,6 +178,7 @@ populateStudent()
 # populateStatus()
 # populateAbsenceReason()
 # populateClass()
+# populateStudent()
     
 
 
