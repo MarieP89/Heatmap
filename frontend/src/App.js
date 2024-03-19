@@ -176,6 +176,29 @@ function App() {
             });
     };
 
+    function Legend() {
+        const legendItems = [
+            { color: "lightgray", label: "Verspätung" },
+            { color: "orange", label: "Krank ohne Attest" },
+            { color: "lightblue", label: "Private Gründe" },
+            { color: "yellow", label: "Krank mit Attest" },
+            { color: "red", label: "Unentschuldigt" },
+            { color: "green", label: "Schulische Abwesenheit" },
+            { color: "lightgreen", label: "Online" }
+        ];
+
+        return (
+            <div className="legend">
+                {legendItems.map((item, index) => (
+                    <div key={index} className="legend-item">
+                        <div className="legend-color" style={{ backgroundColor: item.color }}></div>
+                        <span className="legend-label">{item.label}</span>
+                    </div>
+                ))}
+            </div>
+        );
+    }
+
 
     return (
         <div className="calender-container">
@@ -218,6 +241,7 @@ function App() {
                  tileContent={tileContent}
             />
             <p>Ausgewähltes Datum: {selectedDate.toLocaleDateString()}</p>
+            <Legend />
         </div>
     );
 }
