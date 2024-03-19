@@ -8,8 +8,6 @@ import {format, isWithinInterval, startOfDay, endOfDay} from 'date-fns';
 
 function App() {
 
-
-
     const [selectedDate, setSelectedDate] = useState(new Date());
     const [data, setData] = useState([]);
     const [selectedKlasse, setSelectedKlasse] = useState(' ');
@@ -56,19 +54,6 @@ function App() {
             });
     }, [selectedLangname]);
 
-    // useEffect(() => {
-    //     if (selectedKlasse) {
-    //         axios.get(`http://localhost:5000/get-class-absences?klasse=${selectedKlasse}`)
-    //             .then(response => {
-    //                 setClassAbsence(response.data);
-    //             })
-    //             .catch(error => {
-    //                 console.error('Error fetching the class absences data', error);
-    //             });
-    //     }
-    // }, [selectedKlasse]);
-
-
     const handleDateChange = date => {
         setSelectedDate(date);
     }
@@ -77,10 +62,6 @@ function App() {
         setSelectedKlasse(event.target.value);
     };
 
-    // const handleLangnameChange = (event) => {
-    //     const selectedLangname = event.target.value;
-    //     setSelectedLangname(selectedLangname);
-    // };
 
 
     const fetchLangnames = (selectedKlasse) => {
@@ -97,7 +78,6 @@ function App() {
     const handleLangnameChange = (event) => {
         const selectedLangname = event.target.value;
         setSelectedLangname(selectedLangname);
-        // Wenn "Ganze Klasse" ausgewählt ist, lade die Abwesenheiten für die ganze Klasse
         if (selectedLangname === 'Ganze Klasse') {
             axios.get(`http://localhost:5000/get-class-absences?klasse=${selectedKlasse}`)
                 .then(response => {
@@ -107,16 +87,6 @@ function App() {
                     console.error('Error fetching the class absences data', error);
                 });
         }
-        // else {
-        //     // Lade die Abwesenheiten für den ausgewählten Schüler
-        //     axios.get(`http://localhost:5000/get-absences?langname=${selectedLangname}`)
-        //         .then(response => {
-        //             setAbsences(response.data);
-        //         })
-        //         .catch(error => {
-        //             console.error('Error fetching the absences data', error);
-        //         });
-        // }
     };
 
 
@@ -140,9 +110,6 @@ function App() {
             }
         }
     };
-    // const handleStripeClick = (studentName) => {
-    //     alert(`Absence details for ${studentName}`);
-    // };
 
     const priorityOrder = ['N', 'A', 'K', 'P', 'V', 'S', 'O']; // Unentschuldigt zuerst, Online zuletzt
 
