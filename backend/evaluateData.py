@@ -5,13 +5,29 @@ dataDoc = "backend/bin/data/data.txt"
 classesPath = "backend/bin/data/classes/"
 
 data = [line.strip().split(",") for line in codecs.open(dataDoc, "r", 'utf-8').readlines()]
-print(data[0])
-print(data[1])
+data.pop(0)
+# data = file.split(",")
+# print(data[0])
+# print(data[1])
 
 # for c in getClasses():
 #     print(getNamesOfClass(c))
 
 # print(getClasses())
+
+def reverseDate(date:str):
+    splitDate = date.split(".")
+    return splitDate[2] + "." + splitDate[1] + "." + splitDate[0]
+
+def provideData() -> list:
+    dataForTbl = []
+    for line in data:
+        name = line[1].split(" - ")
+        # YYYY-MM-DD HH:MM
+        start = reverseDate(line[3]) + " " + line[4]
+        end = reverseDate(line[5]) + " " + line[6]
+        dataForTbl.append([line[0], name[0], name[1], line[2], start, end, line[7], line[8]])
+    return dataForTbl
 
 def getStatus():
     s0 = "nicht entsch."
@@ -56,5 +72,5 @@ def getNamesOfClass(classes: str):
         [content.append([names, klasse, zeiten, abwesend]) for i in range(1, len(students))]
     return classes, studentNames, content
 
-getNamesOfClass("ZHN 02")
+# getNamesOfClass("ZHN 02")
 # print(getNamesOfClass("ZHN 02"))
