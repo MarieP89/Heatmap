@@ -1,10 +1,11 @@
 .react-calendar {
-    width: 800px;
+    width: 90%;
     max-width: 100%;
     background: white;
     border: 1px solid #a0a096;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2em; /*Höhe Zahlen*/
+    line-height: 4em;
+
 }
 
 .react-calendar--doubleView {
@@ -99,7 +100,7 @@
 
 .react-calendar__tile {
     max-width: 100%;
-    padding: 10px 6.6667px;
+    padding: 10px 6px;
     background: none;
     text-align: center;
     line-height: 16px;
@@ -154,3 +155,65 @@
 .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
 }
+
+.absence-stripes-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.absence-stripe {
+    height: 6px;
+    border: 0.5px ridge white;
+}
+
+.absence-stripe:hover {
+    opacity: 0.7;
+}
+
+.absence-V {
+    background-color: lightgray; /* Verspätung */
+}
+.absence-K {
+    background-color: orange; /* Krank ohne Attest */
+}
+.absence-P {
+    background-color: lightblue; /* Private Gründe */
+}
+.absence-A {
+    background-color: yellow; /* Krank mit Attest */
+}
+.absence-N {
+    background-color: red; /* Unentschuldigt */
+}
+.absence-S {
+    background-color: green; /* Schulische Abwesenheit */
+}
+.absence-O {
+    background-color: lightgreen; /* für Online */
+}
+
+.legend {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #a0a096;
+    margin-right: 5px;
+}
+
+.legend-label {
+    font-size: 14px;
+}
+
+
