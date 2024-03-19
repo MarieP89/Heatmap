@@ -11,7 +11,6 @@ CORS(app)
 @app.route('/read-csv')
 def read_csv():
     base_dir = os.path.dirname(__file__)
-   # csv_path = glob.glob(os.path.join(base_dir, 'bin', '*.csv'))
     csv_files = glob.glob(os.path.join(base_dir, 'bin', '*.csv'))
     csv_files.sort(key=os.path.getmtime, reverse=True)
     latest_csv_path = csv_files[0]
@@ -21,7 +20,6 @@ def read_csv():
 @app.route('/get-klassen')
 def get_klassen():
     base_dir = os.path.dirname(__file__)
-    #csv_path = os.path.join(base_dir, 'bin', '*.csv')
     csv_files = glob.glob(os.path.join(base_dir, 'bin', '*.csv'))
     csv_files.sort(key=os.path.getmtime, reverse=True)
     latest_csv_path = csv_files[0]
@@ -33,7 +31,6 @@ def get_klassen():
 def get_langnames():
     selected_klasse = request.args.get('klasse')
     base_dir = os.path.dirname(__file__)
-    #csv_path = os.path.join(base_dir, 'bin', '*.csv')
     csv_files = glob.glob(os.path.join(base_dir, 'bin', '*.csv'))
     csv_files.sort(key=os.path.getmtime, reverse=True)
     latest_csv_path = csv_files[0]
@@ -65,7 +62,6 @@ def get_all_absences():
 def get_absences():
     selected_langname = request.args.get('langname')
     base_dir = os.path.dirname(__file__)
-    #csv_path = os.path.join(base_dir, 'bin', '*.csv')
     csv_files = glob.glob(os.path.join(base_dir, 'bin', '*.csv'))
     csv_files.sort(key=os.path.getmtime, reverse=True)
     latest_csv_path = csv_files[0]
