@@ -64,7 +64,7 @@ def getAbsenceOfStudent(studentID:str):
     except Error as e:
         print(e)
     dbCon.disconnect(conn)
-    table = [["beginn", "ende", "abwesenheit", "status"]]
+    table = [["student", "beginn", "ende", "abwesenheit", "status"]]
     for result in results:
         dataset = []
         for data in result:
@@ -72,4 +72,22 @@ def getAbsenceOfStudent(studentID:str):
         table.append(dataset)
     return table
 
-print(getAbsenceOfStudent("loewe_lisa"))
+def getAbsenceOfClass(className):
+    query = "SELECT className, start, end, absenceReason, status FROM " + tables[0] + " WHERE className = '" + className + "';"
+    conn = dbCon.connect(db)
+    c = conn.cursor()
+    try:
+        c.execute(query)
+        results = c.fetchall()
+    except Error as e:
+        print(e)
+    dbCon.disconnect(conn)
+    table = [["Klasse", "beginn", "ende", "Grund", "Status"]]
+    for result in results:
+        dataset = []
+        for data in result:
+            dataset.append(data)
+        table.append(dataset)
+    return table
+
+print(getAbsenceOfClass("ZHN 02"))
