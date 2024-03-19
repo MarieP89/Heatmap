@@ -2,7 +2,6 @@ import dbConnection as dbCon
 import evaluateData
 from sqlite3 import Connection, Error
 
-# TODO conn auf die richtige DB
 def getAllTableNames(db) -> list: 
     allTables = "SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';"
     conn = dbCon.connect(db)
@@ -22,16 +21,15 @@ def getAllTableNames(db) -> list:
 
     return tables
 
-dbFile = "D:\\Schule\\LF12\\ls12_Projekt_Heatmap\\HEAT-9\\Heatmap\\backup\\studentDB.db"
-db = "backend/bin/studentDB.db"
-content = evaluateData.provideData()
-#getAllTableNames(dbFile)
-
-#region consts
+#region variablen
 tables = ["AllData", "Status", "Abwesenheitsgrund", "Klasse", "Student", "Abwesenheiten"]
 statusEntries = evaluateData.getStatus()
 absenceReasonEntries = evaluateData.getAbwesenheitsgrund()
 classEntries = evaluateData.getClasses()
+content = evaluateData.provideData()
+# dbFile = "D:\\Schule\\LF12\\ls12_Projekt_Heatmap\\HEAT-9\\Heatmap\\backup\\studentDB.db"
+db = "backend/bin/studentDB.db"
+#getAllTableNames(db)
 #endregion
 
 #region table Queries
@@ -55,10 +53,45 @@ def createTables():
             print(e)
     conn.commit()
     dbCon.disconnect(conn)
-   
+
+#region table getter und helper
+def getTbl(tableName: int):
+    query = "SELECT * FROM " + tables[tableName] + ";"
+    conn = dbCon.connect(db)
+    c = conn.cursor()
+    try:
+        c.execute(query)
+        results = c.fetchall()
+    except Error as e:
+        print(e)
+    dbCon.disconnect(conn)
+    table = []
+    for result in results:
+        dataset = []
+        for data in result:
+            dataset.append(data)
+        table.append(dataset)
+    return table
+
+def getClassId(className:str):
+    classes = getTbl(3)
+    for cl in classes:
+        if cl[1] == className:
+            return cl[0]
+    return None
+
+def getStatusId(statusName:str):
+    status = getTbl(1)
+    for stat in status:
+        if stat[1] == statusName:
+            return stat[0]
+    return None
+
 def insertValue(db:str, col:str, val:str):
     return "INSERT INTO " + db + "(" + col + ") VALUES (" + val + ");"
+#endregion
 
+#region populate DB
 def populateAllDataTbl():
     conn = dbCon.connect(db)
     for line in content:
@@ -104,29 +137,6 @@ def populateClass():
     conn.commit()
     dbCon.disconnect(conn)
 
-def getClassTbl():
-    query = "SELECT * FROM " + tables[3] + ";"
-    conn = dbCon.connect(db)
-    c = conn.cursor()
-    try:
-        c.execute(query)
-        results = c.fetchall()
-    except Error as e:
-        print(e)
-    dbCon.disconnect(conn)
-    table = []
-    for result in results:
-        table.append([result[0], result[1]])
-    return table
-
-def getClassId(className:str):
-    classes = getClassTbl()
-    for cl in classes:
-        # print(str(cl[0]) + " - " + cl[1])
-        if cl[1] == className:
-            return cl[0]
-    return None
-        
 def populateStudent():
     studentID = []
     conn = dbCon.connect(db)
@@ -150,40 +160,22 @@ def populateStudent():
     conn.commit()
     dbCon.disconnect(conn)
 
-# ['haase_mike', 'Haase', 'Mike', 'ZHN 02', '2023.08.30 08:00', '2023.08.30 17:00', 'K', 'entsch.']
-# tables = ["AllData", "Status", "Abwesenheitsgrund", "Klasse", "Student", "Abwesenheiten"]
-
-# getAbsenceReasonID -> id_abwesenheitsgrund_fk
-# getStatusID -> id_status_fk
-# populate Abwesenheiten
-
-# (id_abwesenheit_pk integer PRIMARY KEY, id_student_fk varchar(50) NOT NULL, beginn varchar(16) NOT NULL, ende varchar(16) NOT NULL, id_abwesenheitsgrund_fk char(2) NOT NULL, id_status_fk integer NOT NULL, FOREIGN KEY (id_student_fk) REFERENCES Student (id_student_pk), FOREIGN KEY (id_abwesenheitsgrund_fk) REFERENCES Abwesenheitsgrund (id_abwesenheitsgrund_pk), FOREIGN KEY (id_status_fk) REFERENCES Status (id_status_pk))"
-
 def populateAbsenceReason():
     conn = dbCon.connect(db)
     for entry in content:
+        status = getStatusId(entry[7])
+        print(status)
         try:
             c = conn.cursor()
-            s = "NULL, '" + entry + "', "
+            s = "NULL, '" + entry[0] + "', '" + entry[4] + "', '" + entry[5] + "', '" + entry[6] + "', '" + str(status) + "'"
             c.execute(insertValue(tables[5], "id_abwesenheit_pk, id_student_fk, beginn, ende, id_abwesenheitsgrund_fk, id_status_fk", s))
         except Error as e:
             print(e)
     conn.commit()
     dbCon.disconnect(conn)
-    pass
+#endregion
 
-
-# createTables()
-# populateAllDataTbl()
-# populateStatus()
-# populateAbsenceReason()
-# populateClass()
-# populateStudent()
-    
-
-
-
-
+#region table drop
 def sendQuery(query):
     conn = dbCon.connect(db)
     try:
@@ -194,10 +186,19 @@ def sendQuery(query):
     conn.commit()
     dbCon.disconnect(conn)
 
-# shootQuery("DROP TABLE AllData;")
-# shootQuery(createCSVcopyTbl)
+# for table in tables:
+#     sendQuery("DROP TABLE " + table + ";")
+# sendQuery(createCSVcopyTbl)
 
+#endregion
 
-# ID,   Langname - Vorname,     Klasse,     
-# Beginndatum-Beginnzeit,    Enddatum-Endzeit,    # YYYY-MM-DD HH:MM
-# Abwesenheitsgrund,    Status
+def createAndfillDatabase():
+    createTables()
+    populateAllDataTbl()
+    populateStatus()
+    populateAbsenceReason()
+    populateClass()
+    populateStudent()
+    populateAbsenceReason()
+
+# createAndfillDatabase()
