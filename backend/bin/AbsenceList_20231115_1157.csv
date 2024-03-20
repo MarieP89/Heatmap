@@ -1,0 +1,275 @@
+Langname	Vorname	ID	Klasse	Beginndatum	Beginnzeit	Enddatum	Endzeit	Unterbrechungen	Abwesenheitsgrund	Text/Grund	Entschuldigungsnummer	Status	Entschuldigungstext	gemeldet von Schüler*in
+Haase	Mike	haase_mike	ZHN 02	30.08.2023	08:00	30.08.2023	17:00		K	Krankenhaustermin 29.08.2023, 14:54	309510	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	04.09.2023	08:00	04.09.2023	09:30		K	07:35	310298	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	21.09.2023	08:00	21.09.2023	09:30		P	Arzttermin Nachweis liegt vor	315717	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	11.10.2023	09:45	11.10.2023	17:00		K	Termin Charite, pers.	320977	entsch.		false
+Haase	Mike	haase_mike	ZHN 02	12.10.2023	08:00	12.10.2023	08:06		V	S-Bahn Ausfall	321162	nicht entsch.		false
+Haase	Mike	haase_mike	ZHN 02	12.10.2023	09:45	12.10.2023	17:00		K	Termin a. d. CHARITÉ	321400	entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	07.09.2023	08:00	07.09.2023	08:05		V		311349	nicht entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	14.09.2023	08:00	14.09.2023	08:05		V		313540	nicht entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	19.09.2023	08:00	19.09.2023	08:02		V		314716	nicht entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	20.09.2023	08:00	20.09.2023	17:00		A	19.09.	315155	entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	21.09.2023	08:00	21.09.2023	09:30		P	Arzttermin Nachweis liegt vor	315720	entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	28.09.2023	08:00	29.09.2023	17:00		A	27.09.	317917	entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	11.10.2023	09:45	11.10.2023	17:00		N		320979	nicht entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	08.11.2023	08:00	08.11.2023	17:00		P	Termin bei der irakischen Botschaft	325257	entsch.		false
+Giraffe	Max	giraffe_max	ZHN 02	09.11.2023	08:00	09.11.2023	08:02		V		325655	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	06.09.2023	08:00	06.09.2023	08:19		V		311212	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	07.09.2023	08:00	07.09.2023	08:05		V		311341	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	14.09.2023	08:00	14.09.2023	11:15		N		313538	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	15.09.2023	08:00	15.09.2023	17:00		N		313983	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	18.09.2023	08:00	18.09.2023	08:53		V		314308	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	19.09.2023	08:00	19.09.2023	08:02		V		314726	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	25.09.2023	08:00	25.09.2023	08:07		V		316482	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	26.09.2023	09:45	26.09.2023	10:00		V		316929	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	27.09.2023	08:00	27.09.2023	08:05		V		317131	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	28.09.2023	08:00	29.09.2023	17:00		A	00:42	317518	entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	04.10.2023	08:00	04.10.2023	09:30		N		318579	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	05.10.2023	08:00	05.10.2023	09:50		A		318926	entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	09.10.2023	08:00	09.10.2023	17:00		A	11:07	319769	entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	16.10.2023	08:00	16.10.2023	08:07		V		322045	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	17.10.2023	08:00	17.10.2023	08:03		V		322524	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	18.10.2023	08:00	18.10.2023	11:15		N		323213	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	19.10.2023	08:00	19.10.2023	18:30		A	04.11.2023, 20:49	323911	entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	20.10.2023	08:00	20.10.2023	09:30		N		324030	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	09.11.2023	08:00	10.11.2023	17:00		A	13.11.	325654	entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	14.11.2023	08:05	14.11.2023	09:30		N		326873	nicht entsch.		false
+Löwe	Lisa	loewe_lisa	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327312	nicht entsch.		false
+Ameise	Gina	ameise_gina	ZHN 02	18.10.2023	08:00	19.10.2023	17:00		A		322933	entsch.		false
+Ameise	Gina	ameise_gina	ZHN 02	14.11.2023	08:00	14.11.2023	08:10		N		327104	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	07.09.2023	08:00	07.09.2023	08:19		V		311358	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	12.09.2023	08:00	12.09.2023	08:05		N		312771	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	14.09.2023	08:00	14.09.2023	09:30		N		313543	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	21.09.2023	13:30	21.09.2023	15:00		K	abgemeldet wegen starker Kopfschmerzen	315995	entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	25.09.2023	13:30	25.09.2023	17:00		N		316687	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	29.09.2023	08:00	29.09.2023	17:00		K	7:13	317922	entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	05.10.2023	08:00	05.10.2023	08:08		V		318933	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	10.10.2023	13:30	10.10.2023	17:00		N		320545	nicht entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	12.10.2023	08:00	13.10.2023	17:00		A	06:47	321176	entsch.		false
+Ameisenbär	Francois	ameisenbaer_francois	ZHN 02	20.10.2023	08:00	20.10.2023	17:00		K		324029	entsch.		false
+Tiger	Karl	Tiger_Karl	ZHN 02	30.08.2023	09:45	04.09.2023	08:00		A		309633	entsch.		false
+Tiger	Karl	Tiger_Karl	ZHN 02	13.09.2023	08:00	13.09.2023	08:06		V		313028	nicht entsch.		false
+Tiger	Karl	Tiger_Karl	ZHN 02	29.09.2023	13:30	29.09.2023	15:00		K	Schüler hat sich um 13:05 Uhr um Sekretariat abgemeldet	318293	entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	31.08.2023	08:00	31.08.2023	18:30		A	30.08.2023, 21:06	309701	entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	04.09.2023	08:00	04.09.2023	08:16		V		310317	nicht entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	18.09.2023	08:00	18.09.2023	08:34		V		314313	nicht entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	19.09.2023	13:30	19.09.2023	15:00		P	Aussage bei der Kripo	315115	entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	25.09.2023	08:00	25.09.2023	17:00		A	6:18	316424	entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	26.09.2023	09:45	26.09.2023	09:57		V	Polizeieinsatz	316934	nicht entsch.		false
+Geier	Carolina	Geier_Carolina	ZHN 02	18.10.2023	08:00	18.10.2023	17:00		A		322935	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	28.08.2023	08:00	30.08.2023	18:30		A		309518	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	31.08.2023	08:00	31.08.2023	08:06		V		309730	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	05.09.2023	08:00	05.09.2023	09:30		P		310695	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	06.09.2023	08:00	06.09.2023	17:00		A		311136	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	07.09.2023	08:00	07.09.2023	09:30		K	07:28	311374	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	11.09.2023	08:00	11.09.2023	17:00		A	E-Mail am 10.09.	312211	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	21.09.2023	08:00	21.09.2023	09:30		K		315733	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	29.09.2023	08:00	29.09.2023	17:00		A	6:10	317933	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	05.10.2023	08:00	05.10.2023	08:07		V		318939	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	06.10.2023	13:30	06.10.2023	15:00		P	Beratungstermin (Bestätigung liegt vor)	319703	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	10.10.2023	08:00	10.10.2023	17:00		A	Do 12.10. um 00:57 Uhr	320389	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	11.10.2023	09:45	12.10.2023	17:00		A	00:57	320988	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	18.10.2023	08:00	19.10.2023	17:00		A		323209	entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	20.10.2023	08:00	20.10.2023	09:30		N		324028	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	06.11.2023	08:00	06.11.2023	17:00		N		324406	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	07.11.2023	09:45	07.11.2023	17:00		N		324997	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	08.11.2023	08:00	08.11.2023	17:00		N		325266	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	09.11.2023	08:00	09.11.2023	08:10		V		325656	nicht entsch.		false
+Ratte	Gustav	ratte_gustav	ZHN 02	14.11.2023	08:00	14.11.2023	09:30		N		326876	nicht entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	28.08.2023	08:00	30.08.2023	17:00		K		309316	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	31.08.2023	08:00	31.08.2023	17:00		N		312047	nicht entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	01.09.2023	08:00	01.09.2023	17:00		A		312048	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	07.09.2023	08:00	07.09.2023	08:19		V		311376	nicht entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	13.09.2023	08:00	13.09.2023	08:05		V		313042	nicht entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	15.09.2023	08:00	15.09.2023	17:00		A		314206	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	21.09.2023	11:35	21.09.2023	15:00		A	Hat sich krank angemeldet und geht zum Arzt	315971	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	22.09.2023	12:30	22.09.2023	12:35		N		316350	nicht entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	09.10.2023	08:00	09.10.2023	17:00		A	Di 10.10. um 11:54	319782	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	11.10.2023	09:45	11.10.2023	17:00		N		320991	nicht entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	13.10.2023	08:00	13.10.2023	17:00		A		321961	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	06.11.2023	08:00	06.11.2023	11:15		A	eingegangen am 09.11.	324407	entsch.		false
+Esel	Mustafa	Esel_Mustafa	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327311	nicht entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	31.08.2023	08:00	31.08.2023	18:30		A	30.08.2023, 20:38	309732	entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	04.09.2023	08:00	04.09.2023	08:16		V		310325	nicht entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	18.09.2023	08:00	18.09.2023	08:34		V		314318	nicht entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	19.09.2023	08:00	20.09.2023	17:00		A	18.09.	315020	entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	06.10.2023	08:00	06.10.2023	09:45		P		319618	entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	11.10.2023	09:45	11.10.2023	10:08		V		320993	nicht entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	18.10.2023	08:00	18.10.2023	17:00		A		322934	entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	14.11.2023	08:00	14.11.2023	11:15		P	Termin beim Amtsgericht um 09:30 Uhr	325487	entsch.		false
+Krokodil	Tamara	Krokodil_Tamara	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327317	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	04.09.2023	08:00	04.09.2023	17:00		P	05.09.2023, 21:30 (ohne Begründung)	310326	entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	06.09.2023	08:00	06.09.2023	18:30		A	07.09.2023, 23:26	311152	entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	13.09.2023	08:00	13.09.2023	17:00		N		313047	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	14.09.2023	08:00	14.09.2023	17:00		N		313557	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	15.09.2023	08:00	15.09.2023	17:00		N		314005	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	18.09.2023	08:00	18.09.2023	08:52		V		314319	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	19.09.2023	08:00	19.09.2023	08:02		V		314732	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	25.09.2023	08:00	25.09.2023	08:07		V		316431	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	26.09.2023	09:45	26.09.2023	10:00		V		316941	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	27.09.2023	08:00	27.09.2023	17:00		N		317146	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	28.09.2023	08:00	29.09.2023	17:00		A	02:03	317526	entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	05.10.2023	08:00	05.10.2023	09:50		N		318945	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	09.10.2023	08:00	09.10.2023	18:30		A	09.10.2023 18:51	319783	entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	10.10.2023	13:30	10.10.2023	17:00		N		320552	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	16.10.2023	08:00	16.10.2023	08:07		V		322059	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	17.10.2023	08:00	17.10.2023	08:03		V		322527	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	18.10.2023	08:00	18.10.2023	11:15		N		323215	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	19.10.2023	08:00	19.10.2023	17:00		A	7:26	323534	entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	20.10.2023	08:00	20.10.2023	09:30		N		324031	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	09.11.2023	08:00	09.11.2023	17:00		N		325658	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	10.11.2023	08:00	10.11.2023	17:00		N		326199	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	14.11.2023	08:05	14.11.2023	09:30		N		326879	nicht entsch.		false
+Papagei	Enzo	papagei_mustafa	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327313	nicht entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	01.09.2023	08:00	01.09.2023	18:30		A		310127	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	14.09.2023	08:00	14.09.2023	17:00		A	7:20	313564	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	18.09.2023	08:00	18.09.2023	08:23		V	Klima-Kleber	314321	nicht entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	28.09.2023	08:00	28.09.2023	17:00		A	07:46	317528	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	10.10.2023	08:00	10.10.2023	17:00		A	7:13	320147	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	12.10.2023	13:30	12.10.2023	14:00		S		321550	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	19.10.2023	11:35	20.10.2023	17:00		A		323913	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	13.11.2023	08:00	13.11.2023	17:00		K		326351	entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	14.11.2023	08:00	14.11.2023	17:00		N		326881	nicht entsch.		false
+Elefant	Marc	Elefant_Marc	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327314	nicht entsch.		false
+Spinne	Sabine	spinne_sabine	ZHN 02	07.09.2023	08:00	07.09.2023	08:16		V		311391	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	29.08.2023	08:00	29.08.2023	18:30		K		309071	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	05.09.2023	08:00	05.09.2023	18:30		K	07:18	310721	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	06.09.2023	08:00	06.09.2023	09:30		P	07:37	311137	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	07.09.2023	08:00	07.09.2023	08:10		V		311395	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	13.09.2023	08:00	13.09.2023	17:00		K		313058	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	14.09.2023	08:00	14.09.2023	17:00		A	7:33	313578	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	18.09.2023	08:00	18.09.2023	08:12		V		314324	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	19.09.2023	08:00	19.09.2023	17:00		A	9:13	314869	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	25.09.2023	08:00	25.09.2023	08:11		V		316433	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	26.09.2023	09:45	26.09.2023	09:55		V		316947	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	28.09.2023	08:00	28.09.2023	08:06		V		317531	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	29.09.2023	08:00	29.09.2023	17:00		A	8:10	317960	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	04.10.2023	08:00	04.10.2023	08:06		V		318656	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	06.10.2023	12:04	06.10.2023	17:00		N		319689	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	09.10.2023	08:00	10.10.2023	17:00		A	Di 10.10. um 11:14 Uhr	319785	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	12.10.2023	08:00	12.10.2023	09:30		P	07:54	321205	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	16.10.2023	08:00	16.10.2023	08:08		V		322069	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	17.10.2023	08:00	17.10.2023	17:00		K		322688	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	18.10.2023	08:00	19.10.2023	17:00		A	18.10. um 17:56	323217	entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	06.11.2023	08:00	06.11.2023	08:24		V	Zugausfall	324408	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	08.11.2023	08:00	08.11.2023	11:15		N		325279	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	13.11.2023	08:00	13.11.2023	17:00		N		326353	nicht entsch.		false
+Zebra	Tom	Zebra_Tom	ZHN 02	14.11.2023	08:00	14.11.2023	09:30		P	Arzttermin der Mutter	326882	entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	04.09.2023	08:00	04.09.2023	13:30		P	Wohnungsbesichtigung	310333	entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	08.09.2023	11:35	08.09.2023	17:00		N		312109	nicht entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	21.09.2023	13:30	21.09.2023	15:00		P	Wohnungsbesichtigung	315996	entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	29.09.2023	08:00	29.09.2023	17:00		K	6:30	317963	entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	04.10.2023	08:00	05.10.2023	17:00		A	06:59	318573	entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	12.10.2023	08:00	12.10.2023	08:10		V		321207	nicht entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	16.10.2023	08:00	16.10.2023	08:08		V		322071	nicht entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	19.10.2023	08:00	19.10.2023	08:03		V		323688	nicht entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	20.10.2023	08:00	20.10.2023	08:17		V		324032	nicht entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	14.11.2023	08:06	14.11.2023	09:30		N		326883	nicht entsch.		false
+Igel	Serhan	levitchi_serhan	ZHN 02	15.11.2023	11:35	15.11.2023	15:00		P		327156	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	15.09.2023	08:00	15.09.2023	17:00		A	6:38	314010	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	19.09.2023	08:00	19.09.2023	17:00		A		314870	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	20.09.2023	08:00	20.09.2023	17:00		K	6:32	315386	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	26.09.2023	09:45	26.09.2023	10:05		V	Stau	316949	nicht entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	29.09.2023	13:30	29.09.2023	17:00		N		318294	nicht entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	09.10.2023	08:00	09.10.2023	17:00		A	8:00	319786	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	11.10.2023	09:45	11.10.2023	17:00		N		320997	nicht entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	13.10.2023	08:00	13.10.2023	18:30		A	16.10.2023 11:33	321962	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	17.10.2023	08:00	17.10.2023	17:00		A		322689	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	20.10.2023	08:00	20.10.2023	17:00		A		324034	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	06.11.2023	08:00	06.11.2023	18:30		K	06.11.2023 00:30	324410	entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	09.11.2023	08:00	09.11.2023	09:30		N		325662	nicht entsch.		false
+Moskito	Zekeria	Moskito_Zekeria	ZHN 02	10.11.2023	08:00	10.11.2023	17:00		A	13.11.	326200	entsch.		false
+Maus	Maggi	Maus_Maggi	ZHN 02	01.09.2023	08:00	01.09.2023	18:30		A	01.09. 06:18	309994	entsch.		false
+Maus	Maggi	Maus_Maggi	ZHN 02	11.10.2023	09:45	11.10.2023	17:00		K	06:10	321000	entsch.		false
+Maus	Maggi	Maus_Maggi	ZHN 02	20.10.2023	08:00	20.10.2023	17:00		K		324033	entsch.		false
+Maus	Maggi	Maus_Maggi	ZHN 02	09.11.2023	08:00	09.11.2023	09:30		P	07:17 Uhr  Darmprobleme	325663	entsch.		false
+Maus	Maggi	Maus_Maggi	ZHN 02	14.11.2023	08:00	15.11.2023	17:00		A		326885	entsch.		false
+Maus	Maggi	Maus_Maggi	ZHN 02	16.11.2023	13:30	16.11.2023	18:30		K	Zahnarzttermin 05.11.2023 18:14	324533	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	29.08.2023	13:30	29.08.2023	17:00		K	vom Sekretariat nach Hause geschickt	309375	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	31.08.2023	08:00	01.09.2023	18:30		A	31.08.2023 08:04	309754	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	04.09.2023	08:00	05.09.2023	18:30		A	11:35	310340	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	07.09.2023	08:00	07.09.2023	17:00		A	10.09.2023, 11:12	311406	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	11.09.2023	08:00	11.09.2023	17:00		K	7:53	312233	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	13.09.2023	08:00	13.09.2023	17:00		K	13.09.2023, 07:49	313071	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	18.09.2023	08:00	22.09.2023	17:00		A	7:57	315749	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	25.09.2023	13:30	25.09.2023	15:00		K	Schüler hat sich um 13:05 krank abgemeldet	316688	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	28.09.2023	08:00	28.09.2023	08:05		V	hat sich zu 13:30 krank abgemeldet	317537	nicht entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	28.09.2023	13:30	28.09.2023	15:00		K		317884	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	29.09.2023	08:00	29.09.2023	17:00		K	7:44	317972	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	05.10.2023	08:00	09.10.2023	18:30		A	9.10.2023 17:27	319788	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	10.10.2023	08:00	10.10.2023	17:00		A	Mi 11.10. um 11:50	320394	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	13.10.2023	11:35	13.10.2023	17:00		A	27.10.2023, 17:33	321964	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	17.10.2023	08:00	17.10.2023	17:00		K		322691	entsch.		false
+Katze	Theresa	Katze_Theresa	ZHN 02	07.11.2023	09:45	07.11.2023	17:00		K		325000	entsch.		false
+Hund	Vera	Hund_Vera	ZHN 02	29.08.2023	09:45	29.08.2023	13:30		P	Stundenplaneintragung verpeilt	309320	entsch.		false
+Hund	Vera	Hund_Vera	ZHN 02	30.08.2023	08:00	30.08.2023	09:30		P	Stundenplaneintragung verpeilt	309527	entsch.		false
+Hund	Vera	Hund_Vera	ZHN 02	19.09.2023	08:00	20.09.2023	17:00		A		314873	entsch.		false
+Hund	Vera	Hund_Vera	ZHN 02	28.09.2023	09:45	28.09.2023	10:30		P	Mietvertrag unterschreiben	317283	entsch.		false
+Hund	Vera	Hund_Vera	ZHN 02	28.09.2023	13:30	28.09.2023	15:00		N		317885	nicht entsch.		false
+Rotkehlchen	Jan	Rotkehlchen_Jan	ZHN 02	25.09.2023	08:00	25.09.2023	08:11		V		316441	nicht entsch.		false
+Rotkehlchen	Jan	Rotkehlchen_Jan	ZHN 02	29.09.2023	08:00	29.09.2023	17:00		K	6:24	317976	entsch.		false
+Rotkehlchen	Jan	Rotkehlchen_Jan	ZHN 02	04.10.2023	08:00	06.10.2023	17:00		A		318574	entsch.		false
+Rotkehlchen	Jan	Rotkehlchen_Jan	ZHN 02	17.10.2023	13:30	17.10.2023	15:00		K		322907	entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	08.09.2023	12:45	08.09.2023	12:55		N		312129	nicht entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	13.09.2023	09:00	13.09.2023	17:00		K	Schüler zum Arzt entlassen	313452	entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	15.09.2023	08:00	15.09.2023	17:00		A	7:54	314013	entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	22.09.2023	12:15	22.09.2023	12:20		N		316351	nicht entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	22.09.2023	12:30	22.09.2023	12:35		N		316352	nicht entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	11.10.2023	09:45	11.10.2023	17:00		N		321004	nicht entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	12.10.2023	13:30	12.10.2023	14:00		S		321556	entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	13.11.2023	08:00	13.11.2023	09:05		P	Arzttermin	326354	entsch.		false
+Schwein	Sibylle	Schwein_Sibylle	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327316	nicht entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	31.08.2023	08:00	31.08.2023	18:30		K	31.08.2023 05:34	309757	entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	13.09.2023	09:45	13.09.2023	17:00		N		313378	nicht entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	14.09.2023	08:00	14.09.2023	08:05		V		313605	nicht entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	28.09.2023	08:00	29.09.2023	17:00		A	27.09.	317552	entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	04.10.2023	08:00	04.10.2023	17:00		K	04:49	318575	entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	05.10.2023	08:00	10.10.2023	17:00		A	Eingegangen am 06.10. um 16:15	318978	entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	18.10.2023	08:00	18.10.2023	17:00		A		323216	entsch.		false
+Schlange	Nico	Schlange_Nico	ZHN 02	19.10.2023	08:00	20.10.2023	17:00		A		323566	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	29.08.2023	09:45	29.08.2023	13:30		P	29.08.2023, 11:04	309321	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	04.09.2023	08:00	04.09.2023	18:30		K	11:26	310344	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	06.09.2023	08:00	06.09.2023	18:30		K	06:41	311139	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	11.09.2023	08:00	11.09.2023	17:00		K	7:29	312236	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	13.09.2023	08:00	13.09.2023	17:00		K	13.09.2023, 07:49	313090	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	14.09.2023	08:00	14.09.2023	17:00		A	7:31	313610	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	18.09.2023	08:00	18.09.2023	11:15		N		314341	nicht entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	19.09.2023	08:00	19.09.2023	17:00		P	Stau und dann Migräne? 9:00 Uhr	314875	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	26.09.2023	09:45	26.09.2023	17:00		N		316958	nicht entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	29.09.2023	13:05	29.09.2023	15:00		K	Herr Tapir meldet sich wg Migräne ab	318248	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	05.10.2023	09:45	05.10.2023	17:00		K	mit Übelkeit entlassen	319075	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	09.10.2023	08:00	09.10.2023	17:00		A	Unfall auf dem Weg zur Schule	319790	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	12.10.2023	08:00	12.10.2023	09:30		N		321233	nicht entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	12.10.2023	13:30	12.10.2023	15:00		K	Schüler hat sich krank abgemeldet	321558	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	16.10.2023	08:00	16.10.2023	17:00		A		322083	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	19.10.2023	08:00	19.10.2023	08:10		V		323596	nicht entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	20.10.2023	08:00	20.10.2023	17:00		K		324035	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	06.11.2023	08:00	06.11.2023	17:00		N		324418	nicht entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	07.11.2023	09:45	07.11.2023	17:00		K		325004	entsch.		false
+Tapir	Ludwig	tapir_ludwig	ZHN 02	15.11.2023	08:00	15.11.2023	17:00		N		327318	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	04.09.2023	08:00	04.09.2023	08:20		V		310346	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	06.09.2023	13:30	06.09.2023	17:00		N		311318	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	07.09.2023	08:00	07.09.2023	08:04		V		311425	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	19.09.2023	08:00	19.09.2023	08:04		V		314802	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	25.09.2023	08:00	25.09.2023	08:09		V		316450	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	27.09.2023	08:00	27.09.2023	08:05		V		317157	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	28.09.2023	08:00	28.09.2023	08:09		V		317573	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	29.09.2023	08:00	29.09.2023	08:14		V		317996	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	04.10.2023	08:00	04.10.2023	17:00		K	06:51	318570	entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	05.10.2023	08:00	05.10.2023	17:00		K	12.10.	318981	entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	09.10.2023	08:00	09.10.2023	11:15		N		319791	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	11.10.2023	09:45	11.10.2023	10:01		V		321006	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	19.10.2023	08:00	19.10.2023	08:03		V		323598	nicht entsch.		false
+Schildkröte	Ahmad	schildkroete_ahmad	ZHN 02	07.11.2023	09:45	07.11.2023	10:00		V		325006	nicht entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	29.08.2023	09:45	29.08.2023	17:00		P		309322	entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	31.08.2023	08:00	01.09.2023	18:30		A		309762	entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	11.09.2023	08:00	13.09.2023	18:30		A	13.09.2023, 12:45	313103	entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	14.09.2023	08:00	14.09.2023	17:00		N		313618	nicht entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	15.09.2023	08:00	15.09.2023	17:00		N		314015	nicht entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	18.09.2023	08:00	18.09.2023	17:00		N		314344	nicht entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	21.09.2023	08:00	21.09.2023	09:30		N		315753	nicht entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	25.09.2023	08:00	27.09.2023	17:00		A	6:31	316961	entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	28.09.2023	08:00	29.09.2023	17:00		A	07:19	317998	entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	13.11.2023	08:00	13.11.2023	17:00		K		326355	entsch.		false
+Pferd	Philip	Pferd_philip	ZHN 02	14.11.2023	08:00	14.11.2023	17:00		N		326886	nicht entsch.		false
+Bär	Adrian	baer_adrian	ZHN 03	18.09.2023	08:00	19.09.2023	17:00		K	6:36	314349	entsch.		false
