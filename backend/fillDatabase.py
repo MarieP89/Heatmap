@@ -126,6 +126,8 @@ def populateAbsenceReason():
     conn.commit()
     dbCon.disconnect(conn)
 
+
+
 def populateClass():
     conn = dbCon.connect(db)
     for entry in classEntries:
@@ -160,7 +162,7 @@ def populateStudent():
     conn.commit()
     dbCon.disconnect(conn)
 
-def populateAbsenceReason():
+def populateAbsence():
     conn = dbCon.connect(db)
     for entry in content:
         status = getStatusId(entry[7])
@@ -199,6 +201,6 @@ def createAndfillDatabase():
     populateAbsenceReason()
     populateClass()
     populateStudent()
-    populateAbsenceReason()
+    populateAbsence()
 
 # createAndfillDatabase()

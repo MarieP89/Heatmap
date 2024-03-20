@@ -90,4 +90,4 @@ def getAbsenceOfClass(className):
         table.append(dataset)
     return table
 
-print(getAbsenceOfClass("ZHN 02"))
+# print(getAbsenceOfClass("ZHN 02"))
