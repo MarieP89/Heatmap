@@ -13,7 +13,7 @@ import dbConnection as dbCon
 
 
 tables = ["AllData", "Status", "Abwesenheitsgrund", "Klasse", "Student", "Abwesenheiten"]
-db = "backend/bin/studentDB.db"
+db = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/studentDB.db"
 
 # getClassNames -> Klasse.beschreibung
 def getClassNames():

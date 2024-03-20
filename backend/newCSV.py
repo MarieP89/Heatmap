@@ -1,25 +1,43 @@
 import codecs
 import glob
 import os
+#"backend/bin/data/data.txt"
 
 line = []
-dataDoc = "backend/bin/data/data.txt"
+dataDoc = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/data/data.txt"
 csvPatternPath = r"backend/bin/upload/*.csv"
 
 def delCSV():
     datei = glob.glob(csvPatternPath)
-    os.remove(datei[0])
+    if datei:
+        os.remove(datei[0])
+    else:
+        print("Keine CSV-Datei zum Löschen gefunden.")
+    # os.remove(datei[0])
+
 
 def getPath():
     return csvPatternPath
 
 def extractData():
     datei = glob.glob(csvPatternPath)
-    originDoc = datei[0]
+    if datei:
+        originDoc = datei[0]
 
-    lines = [line.strip() for line in codecs.open(originDoc, "r", 'utf-8').readlines()]
-    for l in lines:
-        line.append(l.split("\t"))
+        lines = [line.strip() for line in codecs.open(originDoc, "r", 'utf-8').readlines()]
+        line_data = []
+        for l in lines:
+            line_data.append(l.split("\t"))
+        return line_data
+    else:
+        print("Keine CSV-Datei zum Extrahieren von Daten gefunden.")
+        return []
+#     datei = glob.glob(csvPatternPath)
+#     originDoc = datei[0]
+#
+#     lines = [line.strip() for line in codecs.open(originDoc, "r", 'utf-8').readlines()]
+#     for l in lines:
+#         line.append(l.split("\t"))
     
 def usedData(x:list):
     name = [x[0] + " - " + x[1]]

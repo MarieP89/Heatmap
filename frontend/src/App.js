@@ -18,6 +18,20 @@ function App() {
     const [absences, setAbsences] = useState([]);
     const fileInput = React.useRef();
 
+    const [klassenNamen, setKlassenNamen] = useState([]);
+
+
+    useEffect(() => {
+        axios.get('http://localhost:5000/get-class-names')
+            .then(response => {
+                setKlassenNamen(response.data);
+                console.log(response.data); // Zeigt die Klassennamen in der Konsole an
+            })
+            .catch(error => {
+                console.error('Error fetching class names', error);
+            });
+    }, []);
+
 
     useEffect(() => {
         axios.get('http://localhost:5000/read-csv')
@@ -61,7 +75,6 @@ function App() {
     const handleKlasseChange = (event) => {
         setSelectedKlasse(event.target.value);
     };
-
 
 
     const fetchLangnames = (selectedKlasse) => {
@@ -114,12 +127,12 @@ function App() {
     const priorityOrder = ['N', 'A', 'K', 'P', 'V', 'S', 'O']; // Unentschuldigt zuerst, Online zuletzt
 
 
-    const tileContent = ({ date, view }) => {
+    const tileContent = ({date, view}) => {
         if (view === 'month' && selectedLangname === 'Ganze Klasse') {
             let dayAbsences = classAbsence.filter(absence => {
                 const beginDate = startOfDay(convertDateString(absence.Beginndatum));
                 const endDate = endOfDay(convertDateString(absence.Enddatum));
-                return isWithinInterval(startOfDay(date), { start: beginDate, end: endDate });
+                return isWithinInterval(startOfDay(date), {start: beginDate, end: endDate});
             });
 
             dayAbsences = dayAbsences.sort((a, b) => {
@@ -176,22 +189,35 @@ function App() {
             });
     };
 
+    const handleCreateAndFillDatabase = () => {
+        axios.post('http://localhost:5000/create-database')
+            .then(response => {
+                console.log(response.data.message);
+                // Hier können Sie weitere Aktionen durchführen, wenn die Anfrage erfolgreich war
+            })
+            .catch(error => {
+                console.error('Fehler beim Erstellen und Befüllen der Datenbank', error);
+                // Hier können Sie Fehlerbehandlungen durchführen
+            });
+    };
+
+
     function Legend() {
         const legendItems = [
-            { color: "lightgray", label: "Verspätung" },
-            { color: "orange", label: "Krank ohne Attest" },
-            { color: "lightblue", label: "Private Gründe" },
-            { color: "yellow", label: "Krank mit Attest" },
-            { color: "red", label: "Unentschuldigt" },
-            { color: "green", label: "Schulische Abwesenheit" },
-            { color: "lightgreen", label: "Online" }
+            {color: "lightgray", label: "Verspätung"},
+            {color: "orange", label: "Krank ohne Attest"},
+            {color: "lightblue", label: "Private Gründe"},
+            {color: "yellow", label: "Krank mit Attest"},
+            {color: "red", label: "Unentschuldigt"},
+            {color: "green", label: "Schulische Abwesenheit"},
+            {color: "lightgreen", label: "Online"}
         ];
 
         return (
             <div className="legend">
                 {legendItems.map((item, index) => (
                     <div key={index} className="legend-item">
-                        <div className="legend-color" style={{ backgroundColor: item.color }}></div>
+                        <div className="legend-color" style={{backgroundColor: item.color}}></div>
                         <span className="legend-label">{item.label}</span>
                     </div>
                 ))}
@@ -206,18 +232,24 @@ function App() {
             <div style={{display: 'flex', gap: '20px'}}>
                 <div>
                     <label htmlFor="klasse-select">Klasse:</label>
-                    <select onChange={handleKlasseChange}
-                            value={selectedKlasse}
-                            style={{width: "200px"}}
-                    >
+                    {/*<select onChange={handleKlasseChange}*/}
+                    {/*        value={selectedKlasse}*/}
+                    {/*        style={{width: "200px"}}*/}
+                    {/*>*/}
+                    {/*    <option value="">Wähle Klasse</option>*/}
+                    {/*    {klassen.map((klasse, index) => (*/}
+                    {/*        <option key={index} value={klasse}>{klasse}</option>*/}
+                    {/*    ))}*/}
+                    {/*</select>*/}
+                    <select onChange={handleKlasseChange} value={selectedKlasse}>
                         <option value="">Wähle Klasse</option>
-                        {klassen.map((klasse, index) => (
-                            <option key={index} value={klasse}>{klasse}</option>
+                        {klassenNamen.map((klasse, index) => (
+                            <option key={index} value={klasse[0]}>{klasse[1]}</option> // Annahme: klasse[0] ist ID, klasse[1] ist Name
                         ))}
                     </select>
                 </div>
                 <div>
-                <label htmlFor="klasse-select">Schüler:</label>
+                    <label htmlFor="klasse-select">Schüler:</label>
                     <select onChange={handleLangnameChange}
                             value={selectedLangname}
                             style={{width: "200px"}}
@@ -233,15 +265,18 @@ function App() {
             <div style={{margin: '20px'}}>
                 <input type="file" accept=".csv" onChange={handleFileChange} ref={fileInput}/>
                 <button onClick={handleRestart}>Server neu starten</button>
+                <button style={{margin: '10px'}} onClick={handleCreateAndFillDatabase}>DB erstellen / neu befüllen
+                </button>
+
             </div>
             <Calendar
                 onChange={handleDateChange}
                 value={selectedDate}
                 tileClassName={tileClassName}
-                 tileContent={tileContent}
+                tileContent={tileContent}
             />
             <p>Ausgewähltes Datum: {selectedDate.toLocaleDateString()}</p>
-            <Legend />
+            <Legend/>
         </div>
     );
 }

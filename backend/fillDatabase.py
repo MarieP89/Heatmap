@@ -28,7 +28,7 @@ absenceReasonEntries = evaluateData.getAbwesenheitsgrund()
 classEntries = evaluateData.getClasses()
 content = evaluateData.provideData()
 # dbFile = "D:\\Schule\\LF12\\ls12_Projekt_Heatmap\\HEAT-9\\Heatmap\\backup\\studentDB.db"
-db = "backend/bin/studentDB.db"
+db = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/studentDB.db"
 #getAllTableNames(db)
 #endregion
 
@@ -43,8 +43,22 @@ createAbsenceTimesTbl = "CREATE TABLE Abwesenheiten (id_abwesenheit_pk integer P
 createQueries = [createCSVcopyTbl,createStatusTbl,createAbsenceReasonsTbl,createClassesTbl,createStudentsTbl,createAbsenceTimesTbl]
 #endregion
 
+# def createTables():
+#     conn = dbCon.connect(db)
+#     c = conn.cursor()
+#     for query in createQueries:
+#         try:
+#             c.execute(query)
+#         except Error as e:
+#             print(e)
+#     conn.commit()
+#     dbCon.disconnect(conn)
 def createTables():
     conn = dbCon.connect(db)
+    if conn is None:
+        print("Fehler beim Herstellen einer Verbindung zur Datenbank.")
+        return
+
     c = conn.cursor()
     for query in createQueries:
         try:
@@ -92,17 +106,35 @@ def insertValue(db:str, col:str, val:str):
 #endregion
 
 #region populate DB
+# def populateAllDataTbl():
+#     conn = dbCon.connect(db)
+#     for line in content:
+#         try:
+#             s = "'" + line[0] + "', '" + line[1] + "', '" + line[2] + "', '" + line[3] + "', '" + line[4] + "', '" + line[5] + "', '" + line[6] + "', '" + line[7] + "'"
+#             c = conn.cursor()
+#             c.execute(insertValue(tables[0], "id, lastname, firstname, className, start, end, absenceReason, status", s))
+#         except Error as e:
+#             print(e)
+#     conn.commit()
+#     dbCon.disconnect(conn)
+
 def populateAllDataTbl():
     conn = dbCon.connect(db)
+    if conn is None:
+        print("Fehler beim Herstellen einer Verbindung zur Datenbank.")
+        return
+
+    c = conn.cursor()
     for line in content:
         try:
             s = "'" + line[0] + "', '" + line[1] + "', '" + line[2] + "', '" + line[3] + "', '" + line[4] + "', '" + line[5] + "', '" + line[6] + "', '" + line[7] + "'"
-            c = conn.cursor()
             c.execute(insertValue(tables[0], "id, lastname, firstname, className, start, end, absenceReason, status", s))
         except Error as e:
             print(e)
+
     conn.commit()
     dbCon.disconnect(conn)
+
 
 def populateStatus():
     conn = dbCon.connect(db)
@@ -201,4 +233,4 @@ def createAndfillDatabase():
     populateStudent()
     populateAbsenceReason()
 
-createAndfillDatabase()
+# createAndfillDatabase()

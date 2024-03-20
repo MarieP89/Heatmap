@@ -1,11 +1,11 @@
 import codecs
 import newCSV
 
-dataDoc = "backend/bin/data/data.txt"
+dataDoc = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/data/data.txt"
 classesPath = "backend/bin/data/classes/"
 
-data = [line.strip().split(",") for line in codecs.open(dataDoc, "r", 'utf-8').readlines()]
-data.pop(0)
+# data = [line.strip().split(",") for line in codecs.open(dataDoc, "r", 'utf-8').readlines()]
+# data.pop(0)
 # data = file.split(",")
 # print(data[0])
 # print(data[1])
@@ -14,6 +14,20 @@ data.pop(0)
 #     print(getNamesOfClass(c))
 
 # print(getClasses())
+try:
+    with codecs.open(dataDoc, "r", 'utf-8') as file:
+        data = [line.strip().split(",") for line in file.readlines()]
+
+    # Prüfen, ob data nicht leer ist, bevor pop verwendet wird
+    if data:
+        data.pop(0)
+    else:
+        print("Die Datei ist leer.")
+        data = []  # Setze data auf eine leere Liste, falls erforderlich
+
+except FileNotFoundError:
+    print(f"Die Datei {dataDoc} wurde nicht gefunden.")
+    data = []  # Setze data auf eine leere Liste, falls erforderlich
 
 def reverseDate(date:str):
     splitDate = date.split(".")
