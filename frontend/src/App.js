@@ -24,13 +24,19 @@ function App() {
     useEffect(() => {
         axios.get('http://localhost:5000/get-class-names')
             .then(response => {
-                setKlassenNamen(response.data);
-                console.log(response.data); // Zeigt die Klassennamen in der Konsole an
+                const klassenDaten = response.data;
+                if (klassenDaten.length > 1) { // Überprüfen, ob mehr als nur Überschriften vorhanden sind
+                    setKlassen(klassenDaten.slice(1)); // Entfernen der Überschriften
+                } else {
+                    console.log("Keine Klassendaten gefunden");
+                }
             })
             .catch(error => {
                 console.error('Error fetching class names', error);
             });
     }, []);
+
+
 
 
     useEffect(() => {
@@ -243,8 +249,8 @@ function App() {
                     {/*</select>*/}
                     <select onChange={handleKlasseChange} value={selectedKlasse}>
                         <option value="">Wähle Klasse</option>
-                        {klassenNamen.map((klasse, index) => (
-                            <option key={index} value={klasse[0]}>{klasse[1]}</option> // Annahme: klasse[0] ist ID, klasse[1] ist Name
+                        {klassen.map((klasse, index) => (
+                            <option key={index} value={klasse[0]}>{klasse[1]}</option> // klasse[1] ist die Bezeichnung
                         ))}
                     </select>
                 </div>

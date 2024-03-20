@@ -16,6 +16,23 @@ tables = ["AllData", "Status", "Abwesenheitsgrund", "Klasse", "Student", "Abwese
 db = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/studentDB.db"
 
 # getClassNames -> Klasse.beschreibung
+# def getClassNames():
+#     query = "SELECT * FROM " + tables[3] + ";"
+#     conn = dbCon.connect(db)
+#     c = conn.cursor()
+#     try:
+#         c.execute(query)
+#         results = c.fetchall()
+#     except Error as e:
+#         print(e)
+#     dbCon.disconnect(conn)
+#     table = [["ID", "Bezeichnung"]]
+#     for result in results:
+#         dataset = []
+#         for data in result:
+#             dataset.append(data)
+#         table.append(dataset)
+#     return table
 def getClassNames():
     query = "SELECT * FROM " + tables[3] + ";"
     conn = dbCon.connect(db)
@@ -23,16 +40,16 @@ def getClassNames():
     try:
         c.execute(query)
         results = c.fetchall()
+        print("Abgerufene Daten:", results)  # Fügen Sie dies hinzu, um die abgerufenen Daten zu sehen
     except Error as e:
-        print(e)
+        print("Datenbankfehler:", e)
     dbCon.disconnect(conn)
+
     table = [["ID", "Bezeichnung"]]
     for result in results:
-        dataset = []
-        for data in result:
-            dataset.append(data)
-        table.append(dataset)
+        table.append(list(result))
     return table
+
 
 # getStudentNames -> Student.id_student-pk, Student.nachname, Student.vorname 
 def getStudentNames(classID:int):

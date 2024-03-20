@@ -5,6 +5,8 @@ from flask_cors import CORS
 from newCSV import delCSV, restart
 from fillDatabase import createAndfillDatabase
 import glob
+import dbCommunication
+
 
 app = Flask(__name__)
 CORS(app)
@@ -74,13 +76,15 @@ CORS(app)
 #     absences = data[data['Langname'] == selected_langname][['Beginndatum', 'Enddatum', 'Abwesenheitsgrund']]
 #     return jsonify(absences.to_dict(orient='records'))
 
-@app.route('/get-class_names', methods=['GET'])
+@app.route('/get-class-names', methods=['GET'])
 def get_class_names():
     try:
-        class_names = getClassNames()
+        class_names = dbCommunication.getClassNames()  # Angenommen, dies ist die Funktion aus Ihrem Modul
         return jsonify(class_names)
     except Exception as e:
+        print(f"Fehler: {e}")
         return jsonify({'error': str(e)}), 500
+
 
 
 @app.route('/upload-csv', methods=['POST'])
