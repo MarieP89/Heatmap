@@ -3,11 +3,18 @@ import glob
 import os
 
 line = []
-dataDoc = "backend/bin/data/data.txt"
-csvPatternPath = r"backend/bin/upload/*.csv"
+dataDoc = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/data/data.txt"
+csvPatternPath = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/*.csv"
 
 def delCSV():
     datei = glob.glob(csvPatternPath)
+    print("Found files:", datei)  # Add this line to see which files are found
+
+    if not datei:
+        print("No CSV files found to delete.")
+        return
+
+    print("Deleting file:", datei[0])  # Add this line to log which file is being deleted
     os.remove(datei[0])
 
 def getPath():
@@ -15,6 +22,10 @@ def getPath():
 
 def extractData():
     datei = glob.glob(csvPatternPath)
+    if not datei:  # Check if the list is empty
+        print("No CSV files found in the directory.")
+        return  # Exit the function if no files are found
+
     originDoc = datei[0]
 
     lines = [line.strip() for line in codecs.open(originDoc, "r", 'utf-8').readlines()]

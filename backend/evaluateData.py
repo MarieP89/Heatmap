@@ -1,7 +1,7 @@
 import codecs
 import newCSV
 
-dataDoc = "backend/bin/data/data.txt"
+dataDoc = r"/Users/mpotgeter/WebstormProjects/heatmap/backend/bin/data/data.txt"
 classesPath = "backend/bin/data/classes/"
 
 data = [line.strip().split(",") for line in codecs.open(dataDoc, "r", 'utf-8').readlines()]
